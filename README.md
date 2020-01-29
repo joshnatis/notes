@@ -37,11 +37,11 @@ much the formatting options available to you). I chose the 'ms' macros.
 
 __5 Steps to Perfection__
 1. create a file named `filename.ms`
-    * check out [my script]() that prefills some information into the file
+    * check out [my script](https://github.com/joshnatis/notes/blob/master/scripts/nota) that prefills some information into the file
 2. check the macros available to you
-    * check out [my script]() that lists out some of the common ms macros, for reference
+    * check out [my script](https://github.com/joshnatis/notes/blob/master/scripts/cheatsheet) that lists out some of the common ms macros, for reference
 3. type your document
-4. compile `filename.ms` into postscript with `groff` (or skip steps 4 and 5 by using [my script]())
+4. compile `filename.ms` into postscript with `groff` (or skip steps 4 and 5 by using [my script](https://github.com/joshnatis/notes/blob/master/scripts/gack))
     * `groff -ms filename.ms > filename.ps`
 5. convert the postscript file to PDF with `cupsfilter`
     * `groff` provides functionality to convert postscript to PDF, but it was apparently not installed on my system
