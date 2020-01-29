@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+	echo "no"
+	exit
+fi
+
+file="$1"
+name=${file%.*} #remove file extension
+
+groff -ms "$file" > temp.ps
+cupsfilter temp.ps > "$name.pdf"
+
+rm temp.ps
+open "$name.pdf" #change to xdg-open if on linux, or to your pdf viewer

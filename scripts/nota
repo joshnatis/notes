@@ -1,0 +1,31 @@
+#!/bin/bash
+
+file="$1"
+class="$2"
+
+if [ -z "$1" ]; then
+	echo "no"
+	exit
+fi
+
+if [ "$class" = "cs265" ] || [ "$class" = "CS265" ]; then
+	class="CS265, Computer Theory I"
+elif [ "$class" = "cs335" ] || [ "$class" = "CS335" ]; then
+	class="CS335, Algorithms"
+elif [ "$class" = "cs260" ] || [ "$class" = "CS260" ]; then
+	class="CS260, Assembly Language and Computer Architecture"
+elif [ -z "$class" ]; then
+	class="CUNY Hunter College"
+fi
+
+touch "$file"
+
+echo ".DA" > "$file"
+echo ".AU" >> "$file"
+echo "$class" >> "$file"
+echo ".TL" >> "$file"
+echo "Lecture X" >> "$file"
+echo "" >> "$file"
+echo ".LP" >> "$file"
+
+vim "$file"
