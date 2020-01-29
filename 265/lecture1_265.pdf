@@ -1,0 +1,426 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 1705
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(CS 265 - Computer Theory)Tj
+/TT4 1 Tf
+12 0 0 12 263.616 645 Tm
+[(Lectur)18(e)-250(1)]TJ
+10 0 0 10 72 597 Tm
+[(chapter 1 - discr)18(ete math r)18(e)15(view)]TJ
+/TT2 1 Tf
+0 -3.12 TD
+[(ï)-2150(graph theory)]TJ
+0 -1.56 TD
+[(ï)-2150(set theory)]TJ
+/TT4 1 Tf
+0 -3.6 TD
+(chapter 2 - Deterministic )Tj
+/TT5 1 Tf
+10.8853 0 TD
+(ﬁ)Tj
+/TT4 1 Tf
+0.5562 0 TD
+[(nite A)50(utomata \(DF)90(A\))]TJ
+/TT2 1 Tf
+-11.4414 -3.12 TD
+[(ï)-2150(feed machine an input string, it gi)25(v)15(e)0(s)-250(back an output string)]TJ
+0 -1.56 TD
+[(ï)-2150(accept state \(double circle\))]TJ
+T*
+[(ï)-2150(i)0(f)-250(i)0(m)-250(not there, the machine rejects the input string)]TJ
+2.5 -2.4 TD
+(applications)Tj
+ET
+0 G
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+96.99 425.31 m
+145.35 425.31 l
+S
+BT
+10 0 0 10 72 412.2 Tm
+-0.0003 Tc
+0.0003 Tw
+[(ï)-2150.3(represent gates)]TJ
+0 -1.56 TD
+0 Tc
+0 Tw
+[(ï)-2150(l)0(e)15(xical analysis)]TJ
+/TT4 1 Tf
+0 -3.6 TD
+[(chapter 3 - r)18(egular expr)18(essions)]TJ
+/TT2 1 Tf
+0 -3.12 TD
+[(ï)-2150(strings that e)15(xpand to a set of strings)]TJ
+0 -1.56 TD
+[(ï)-2150(operators: or |, concatenation . , star *)]TJ
+T*
+[(ï)-2150(a)-250(|)-250(b)-250(--> {a, b})]TJ
+T*
+[(ï)-2150(a)-250(.)-250(b)-250(--> {ab})]TJ
+T*
+[(ï)-2150(a)0(*)-250(--> {empty string, a, aa, aaa, ...})]TJ
+/TT4 1 Tf
+0 -3.6 TD
+(chapter 4)Tj
+T*
+[(chapter 5 - context fr)18(ee grammars)]TJ
+/TT2 1 Tf
+0 -2.76 TD
+[(e)-250(i)0(s)-250(the empty string \(length 0\))]TJ
+0 -1.56 TD
+[(ï)-2150(S)-250(--> AB)]TJ
+T*
+[(ï)-2150(A)-250(--> Aa | e)]TJ
+T*
+[(ï)-2150(B)-250(--> Bb | e)]TJ
+T*
+[(ï)-2150(start symbol)]TJ
+T*
+[(ï)-2150(parse string)]TJ
+T*
+[(ï)-2150(production rules)]TJ
+18.295 -4.98 TD
+(28 January 2020)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Length 1393
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+-21.017 -3.6 TD
+[(ï)-2150(S)-250(--> AB --> ABb --> Bb --> b)]TJ
+0 -1.56 TD
+[(ï)-2150(accepts an)15(y)-250(string such that you can deri)25(v)15(e)15( )-15(the string from the start symbol)]TJ
+T*
+[(ï)-2150(used in parser)]TJ
+/TT4 1 Tf
+0 -3.6 TD
+[(chapter 6 - pushdo)10(wn automata)]TJ
+/TT2 1 Tf
+0 -3.12 TD
+(ï)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(nite state machine with a stack)Tj
+-3.0562 -1.56 TD
+[(ï)-2150(transition states based on input and store memory)]TJ
+/TT4 1 Tf
+0 -3.6 TD
+(chapter 7 - turing machines)Tj
+/TT2 1 Tf
+0 -2.76 TD
+[(íhardw)10(areí)]TJ
+ET
+0 G
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+72.03 527.91 m
+115.71 527.91 l
+S
+BT
+10 0 0 10 72 514.8 Tm
+[(ï)-2150(tape)]TJ
+0 -1.56 TD
+[(ï)-2150(input string on tape)]TJ
+T*
+2.15 Tc
+[(ïi)2150(n)]TJ
+/TT6 1 Tf
+3.2779 0 TD
+0 Tc
+(ﬁ)Tj
+/TT2 1 Tf
+0.5562 0 TD
+(nite tape)Tj
+-3.8341 -1.56 TD
+[(ï)-2150(read/write head)]TJ
+0 -2.76 TD
+[(í)55(softw)10(areí)]TJ
+ET
+72.03 437.91 m
+112.47 437.91 l
+S
+BT
+10 0 0 10 72 424.8 Tm
+[(ï)-2150(transition function)]TJ
+0 -1.56 TD
+[(ï)-2150(set of rules i ha)20(v)15(e)15( )-15(to)-250(follo)25(w)-250(t)0(o)-250(m)]TJ
+15.4377 0 TD
+-0.015 Tc
+(ove )Tj
+1.6638 0 TD
+0 Tc
+(across this tape)Tj
+-17.1015 -1.56 TD
+[(ï)-2150(transition function gets comple)15(x)-250(\(can represent an)15(y)-250(algo\))]TJ
+18.295 -36.96 TD
+(28 January 2020)Tj
+ET
+endstream
+endobj
+11 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 12 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+7 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+14 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+16 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 0 0 0 0 0 0 333 333 500 0 250 333 250 278 
+500 0 500 0 0 500 500 0 500 0 278 0 0 0 564 0 
+0 722 667 667 0 0 0 0 0 0 389 0 0 0 0 0 
+0 0 0 556 611 0 0 0 0 0 0 0 0 0 0 0 
+0 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 
+500 0 333 389 278 500 500 722 500 500 0 480 200 480 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 333 0 0 350 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 13 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 120
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 0 333 0 0 
+0 500 500 500 500 500 500 500 0 0 0 0 0 0 0 0 
+0 722 0 0 722 0 611 0 0 0 0 0 667 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 500 0 444 556 444 333 500 556 278 0 0 278 833 556 500 
+556 0 444 389 333 556 500 722 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 14 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [556 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 15 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [556 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 16 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 11 0 R
+/Contents 10 0 R
+>>
+endobj
+17 0 obj
+<<
+/S /D
+>>
+endobj
+18 0 obj
+<<
+/Nums [0 17 0 R ]
+>>
+endobj
+8 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 9 0 R]
+/Count 2
+/MediaBox [0 0 612 792]
+>>
+endobj
+19 0 obj
+<<
+/CreationDate (D:20200128150528-05'00')
+/ModDate (D:20200128150528-05'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 8 0 R
+/PageLabels 18 0 R
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000005656 00000 n 
+0000000016 00000 n 
+0000001773 00000 n 
+0000004393 00000 n 
+0000004900 00000 n 
+0000005316 00000 n 
+0000003455 00000 n 
+0000005886 00000 n 
+0000005736 00000 n 
+0000001890 00000 n 
+0000003336 00000 n 
+0000005485 00000 n 
+0000003595 00000 n 
+0000003792 00000 n 
+0000003994 00000 n 
+0000004196 00000 n 
+0000005818 00000 n 
+0000005846 00000 n 
+0000005973 00000 n 
+0000006102 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [<e933907cf96cd6c63179b66b6abbe79c><e933907cf96cd6c63179b66b6abbe79c>]
+>>
+startxref
+6171
+%%EOF

@@ -1,0 +1,480 @@
+%PDF-1.3
+%ту╧╙
+2 0 obj
+<<
+/Length 2483
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(CS335, Algorithms)Tj
+/TT4 1 Tf
+12 0 0 12 263.616 657 Tm
+[(Lectur)18(e)-250(1)]TJ
+/TT2 1 Tf
+10 0 0 10 97 602.4 Tm
+0.0679 Tw
+[(Ne)25(w)-317.9(topics include the)]TJ
+/TT6 1 Tf
+9.6884 0 TD
+0 Tw
+(explicit)Tj
+/TT2 1 Tf
+5.1186 0 TD
+0.0678 Tw
+[(k)10(e)15(yw)10(ord, the)]TJ
+/TT6 1 Tf
+5.5713 0 TD
+0 Tw
+(IntCell)Tj
+/TT2 1 Tf
+4.5185 0 TD
+0.0678 Tw
+[(class, initialization with brack)10(ets)]TJ
+-24.8968 -1.2 TD
+0.1143 Tw
+[({}, range loops, lv)25(alues, and rv)25(alues. )-250.1(As)-364.4(for style, functions and classes follo)25(w)-364.4(CamelCase,)]TJ
+T*
+0 Tw
+[(v)25(ariables follo)25(w)-250(snak)10(e_case)]TJ
+/TT4 1 Tf
+-2.5 -3.6 TD
+(IntCell class)Tj
+/TT2 1 Tf
+0 -1.56 TD
+(Just holds an int \(accessor and setter\))Tj
+0 -2.4 TD
+[(Proper w)10(ays to construct:)]TJ
+ET
+0 G
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+72.03 500.31 m
+173.79 500.31 l
+S
+BT
+10 0 0 10 72 475.2 Tm
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(IntCell obj1;)Tj
+/TT2 1 Tf
+-2.5001 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(IntCell obj2\(12\);)Tj
+/TT2 1 Tf
+-2.5001 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(IntCell obj3{12};)Tj
+/TT2 1 Tf
+-2.5001 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(IntCell obj4{};)Tj
+/TT4 1 Tf
+-2.5001 -3.6 TD
+[(V)100(ector Initialization)]TJ
+/TT2 1 Tf
+0 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(vector<int> n = {1, 2, 4, 4};)Tj
+/TT2 1 Tf
+-2.5001 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(vector<int> n {1, 2, 3, 4};)Tj
+/TT2 1 Tf
+-2.5001 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(vector<int> n\(12\); -- empty vector of size 12)Tj
+/TT2 1 Tf
+-2.5001 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(vector<int> n{12}; -- vector containing element 12)Tj
+/TT4 1 Tf
+-2.5001 -3.6 TD
+[(Range based F)25(or loops)]TJ
+/TT6 1 Tf
+0 -2.4 TD
+(vector<float> f = {1.1, 10.2, 3, 20.31};)Tj
+T*
+(float sum = 0;)Tj
+T*
+(for \(float x: f\))Tj
+2.5 -2.4 TD
+(sum += x;)Tj
+/TT2 1 Tf
+-2.5 -2.76 TD
+[(Х)-2150(x)-250(cannot be modi)]TJ
+/TT7 1 Tf
+9.4151 0 TD
+(▐)Tj
+/TT2 1 Tf
+0.5562 0 TD
+[(ed \(itТ)55(s)-250(a)-250(cop)10(y\))]TJ
+/TT4 1 Tf
+-9.9713 -3.6 TD
+[(lv)10(alues and r)10(v)10(alues)]TJ
+/TT2 1 Tf
+0 -2.76 TD
+[(Х)-2150(l)0(v)25(alues are containers, rv)25(alues are things that are contained)]TJ
+0 -1.56 TD
+0.0254 Tw
+[(Х)-2150(l)0(v)25(alues point to a speci)]TJ
+/TT7 1 Tf
+11.7412 0 TD
+0 Tw
+(▐)Tj
+/TT2 1 Tf
+0.5562 0 TD
+0.0254 Tw
+[(c place in memory)65(,)-275.4(r)0(v)25(alues may be stored in a re)15(gister temporarily b)20(ut other)20(-)]TJ
+-9.7974 -1.2 TD
+0 Tw
+(wise are not stored)Tj
+15.795 -5.52 TD
+(28 January 2020)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT7 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+>>
+endobj
+11 0 obj
+<<
+/Length 913
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+-21.017 -3.6 TD
+0.0743 Tw
+[(Х)-2150(l)0(v)25(alues are typically the declaration/v)25(ariable on the lefthand side, while rv)25(aues are typically e)15(xpres-)]TJ
+2.5 -1.2 TD
+0 Tw
+(sions/literals on the righthand side)Tj
+-2.5 -2.76 TD
+[(e)15(xamples)]TJ
+ET
+0 G
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+72.03 665.91 m
+109.59 665.91 l
+S
+BT
+10 0 0 10 72 644.4 Tm
+[(lv)25(alues)]TJ
+T*
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(const int x;)Tj
+/TT2 1 Tf
+-2.5001 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(int y;)Tj
+/TT2 1 Tf
+-2.5001 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(vector<string> arr\(3\);)Tj
+/TT2 1 Tf
+-2.5001 -2.76 TD
+[(rv)25(alues)]TJ
+0 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(2)Tj
+/TT2 1 Tf
+-2.5001 -1.56 TD
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+0.6 Tc
+(x+y)Tj
+/TT2 1 Tf
+-2.5001 -1.56 TD
+0 Tc
+(Х)Tj
+/TT6 1 Tf
+2.5001 0 TD
+(ТfooТ)Tj
+/TT2 1 Tf
+15.7949 -48.72 TD
+(28 January 2020)Tj
+ET
+endstream
+endobj
+12 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT6 6 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+>>
+endobj
+8 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+14 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 676
+/Descent -250
+/Flags 262178
+/FontBBox [-168 -218 1000 935]
+/FontName /Times-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 461
+/StemH 139
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+16 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 750
+/CapHeight 662
+/Descent -250
+/Flags 34
+/FontBBox [-168 -218 1000 898]
+/FontName /Times-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 450
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 250 333 250 278 
+500 0 500 500 0 500 0 0 500 0 278 0 0 0 0 0 
+0 722 0 667 0 0 0 0 0 0 389 0 0 0 722 0 
+556 0 0 556 0 0 0 0 0 0 0 0 0 0 0 500 
+0 444 500 444 500 444 333 500 500 278 0 500 278 778 500 500 
+500 0 333 389 278 500 500 722 500 500 444 480 0 480 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 333 0 0 350 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 13 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 722 0 0 611 0 0 389 0 0 667 0 0 0 
+0 0 722 0 0 0 722 0 0 0 0 0 0 0 0 0 
+0 500 556 444 556 444 0 500 0 278 0 0 278 0 556 500 
+556 0 444 389 333 556 500 0 0 0 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Times-Bold
+/FontDescriptor 14 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [600 0 0 0 0 0 0 0 600 600 0 600 600 600 600 0 
+600 600 600 600 600 0 0 0 0 0 600 600 600 600 600 0 
+0 0 0 600 0 0 0 0 0 600 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 600 600 600 0 600 600 600 0 600 600 0 600 600 600 600 
+600 0 600 600 600 600 600 0 600 600 600 600 0 600 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 15 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [556 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Times-Roman
+/FontDescriptor 16 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 12 0 R
+/Contents 11 0 R
+>>
+endobj
+17 0 obj
+<<
+/S /D
+>>
+endobj
+18 0 obj
+<<
+/Nums [0 17 0 R ]
+>>
+endobj
+9 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 10 0 R]
+/Count 2
+/MediaBox [0 0 612 792]
+>>
+endobj
+19 0 obj
+<<
+/CreationDate (D:20200128235945-05'00')
+/ModDate (D:20200128235945-05'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 9 0 R
+/PageLabels 18 0 R
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000006234 00000 n 
+0000000016 00000 n 
+0000002551 00000 n 
+0000004678 00000 n 
+0000005181 00000 n 
+0000005581 00000 n 
+0000006064 00000 n 
+0000003751 00000 n 
+0000006465 00000 n 
+0000006314 00000 n 
+0000002679 00000 n 
+0000003644 00000 n 
+0000003891 00000 n 
+0000004088 00000 n 
+0000004290 00000 n 
+0000004481 00000 n 
+0000006397 00000 n 
+0000006425 00000 n 
+0000006553 00000 n 
+0000006682 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [<99c85b45c5c3713e7b0600213ea8c8a7><99c85b45c5c3713e7b0600213ea8c8a7>]
+>>
+startxref
+6751
+%%EOF
