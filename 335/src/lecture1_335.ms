@@ -1,6 +1,9 @@
+.so ../../macros
 .DA
+.green
 .AU 
 CS335, Algorithms
+.neerg
 .TL 
 Lecture 1
 
@@ -12,8 +15,10 @@ keyword, the
 class, initialization with brackets {}, range loops, lvalues, and rvalues.
 As for style, functions and classes follow CamelCase, variables follow snake_case
 
+.green
 .SH
 IntCell class
+.neerg
 .LP
 Just holds an int (accessor and setter)
 
@@ -28,8 +33,10 @@ Just holds an int (accessor and setter)
 .IP \[bu]
 .CW "IntCell obj4{};"
 
+.green
 .SH
 Vector Initialization
+.neerg
 .IP \[bu]
 .CW "vector<int> n = {1, 2, 4, 4};"
 .IP \[bu]
@@ -39,8 +46,10 @@ Vector Initialization
 .IP \[bu]
 .CW "vector<int> n{12}; -- vector containing element 12"
 
+.green
 .SH
 Range based For loops
+.neerg
 
 .CW "vector<float> f = {1.1, 10.2, 3, 20.31};"
 
@@ -53,9 +62,11 @@ Range based For loops
 .IP \[bu]
 x cannot be modified (it's a copy)
 
+.KF
+.green
 .SH
 lvalues and rvalues
-
+.neerg
 .IP \[bu]
 lvalues are containers, rvalues are things that are contained
 .IP \[bu]
@@ -83,3 +94,4 @@ rvalues
 .CW "x + y"
 .IP \[bu]
 .CW "'foo'
+.KF
