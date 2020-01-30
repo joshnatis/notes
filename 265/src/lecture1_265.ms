@@ -1,21 +1,23 @@
+.so ../../macros
 .DA
+\M[grey]\h'-0.1i'\D'E 1.1i 0.75i'\M[]
 .TL
 Lecture 1
+.green
 .AI
 CS 265 - Computer Theory
-
 .SH
 chapter 1 - discrete math review
-
+.neerg
 .LP
 .IP \[bu]
 graph theory
 .IP \[bu]
 set theory
-
+.green
 .SH
 chapter 2 - Deterministic finite Automata (DFA)
-
+.neerg
 .LP
 .IP \[bu]
 feed machine an input string, it gives back an output string
@@ -29,10 +31,10 @@ if im not there, the machine rejects the input string
 represent gates
 .IP \[bu]
 lexical analysis
-
+.green
 .SH
 chapter 3 - regular expressions
-
+.neerg
 .LP
 .IP \[bu]
 strings that expand to a set of strings
@@ -44,13 +46,14 @@ a | b --> {a, b}
 a . b --> {ab}
 .IP \[bu]
 a* --> {empty string, a, aa, aaa, ...}
-
+.green
 .SH
 chapter 4
-
+.neerg
+.green
 .SH
 chapter 5 - context free grammars
-
+.neerg
 .LP
 e is the empty string (length 0)
 .IP \[bu]
@@ -71,19 +74,19 @@ S --> AB --> ABb --> Bb --> b
 accepts any string such that you can derive the string from the start symbol
 .IP \[bu]
 used in parser
-
+.green
 .SH
 chapter 6 - pushdown automata
-
+.neerg
 .LP
 .IP \[bu]
 finite state machine with a stack
 .IP \[bu]
 transition states based on input and store memory
-
+.green
 .SH
 chapter 7 - turing machines 
-
+.neerg
 .LP
 .UL 'hardware'
 .IP \[bu]

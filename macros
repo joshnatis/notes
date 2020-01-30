@@ -1,0 +1,10 @@
+.defcolor darkgreen rgb 0.1 0.5 0.2
+.fam P
+
+.de green
+.gcolor darkgreen
+..
+
+.de neerg
+.gcolor black
+..

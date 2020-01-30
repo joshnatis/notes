@@ -2,97 +2,212 @@
 %‚„œ”
 2 0 obj
 <<
-/Length 1705
+/Length 2790
 >>
 stream
+0.745 0.745 0.745 rg
+/GS1 gs
+1 i 
+144 708 m
+144 693.096 126.259 681 104.4 681 c
+82.541 681 64.8 693.096 64.8 708 c
+64.8 722.904 82.541 735 104.4 735 c
+126.259 735 144 722.904 144 708 c
+f
 BT
 /TT2 1 Tf
-10 0 0 10 72 708 Tm
-0 g
-/GS1 gs
+10 0 0 10 72 696 Tm
+0.1 0.5 0.2 rg
 0 Tc
 0 Tw
 (CS 265 - Computer Theory)Tj
 /TT4 1 Tf
-12 0 0 12 263.616 645 Tm
-[(Lectur)18(e)-250(1)]TJ
+12 0 0 12 263.172 645 Tm
+0 g
+(Lecture 1)Tj
 10 0 0 10 72 597 Tm
-[(chapter 1 - discr)18(ete math r)18(e)15(view)]TJ
+0.1 0.5 0.2 rg
+(chapter 1 - discrete math review)Tj
 /TT2 1 Tf
-0 -3.12 TD
-[(ï)-2150(graph theory)]TJ
-0 -1.56 TD
-[(ï)-2150(set theory)]TJ
+0 g
+0 -1.92 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(graph theory)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(set theory)Tj
 /TT4 1 Tf
-0 -3.6 TD
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
 (chapter 2 - Deterministic )Tj
 /TT5 1 Tf
-10.8853 0 TD
+11.4956 0 TD
 (ﬁ)Tj
 /TT4 1 Tf
-0.5562 0 TD
-[(nite A)50(utomata \(DF)90(A\))]TJ
+0.6108 0 TD
+[(nite Automata \(DF)55(A\))]TJ
 /TT2 1 Tf
--11.4414 -3.12 TD
-[(ï)-2150(feed machine an input string, it gi)25(v)15(e)0(s)-250(back an output string)]TJ
-0 -1.56 TD
-[(ï)-2150(accept state \(double circle\))]TJ
-T*
-[(ï)-2150(i)0(f)-250(i)0(m)-250(not there, the machine rejects the input string)]TJ
-2.5 -2.4 TD
+0 g
+-12.1064 -1.92 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(feed machine an input string, it gives back an output string)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(accept state \(double cir)18(cle\))]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(if im not ther)18(e, the machine r)18(ejects the input string)]TJ
+0 -2.4 TD
 (applications)Tj
 ET
-0 G
+0 0 0 RG
 1 J 1 j 0.4 w 10 M []0 d
-1 i 
-96.99 425.31 m
-145.35 425.31 l
+96.99 461.31 m
+150.99 461.31 l
 S
 BT
-10 0 0 10 72 412.2 Tm
--0.0003 Tc
-0.0003 Tw
-[(ï)-2150.3(represent gates)]TJ
-0 -1.56 TD
-0 Tc
-0 Tw
-[(ï)-2150(l)0(e)15(xical analysis)]TJ
+10 0 0 10 72 448.2 Tm
+0 g
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(r)18(epr)18(esent gates)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(lexical analysis)Tj
 /TT4 1 Tf
-0 -3.6 TD
-[(chapter 3 - r)18(egular expr)18(essions)]TJ
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
+(chapter 3 - regular expressions)Tj
 /TT2 1 Tf
-0 -3.12 TD
-[(ï)-2150(strings that e)15(xpand to a set of strings)]TJ
-0 -1.56 TD
-[(ï)-2150(operators: or |, concatenation . , star *)]TJ
-T*
-[(ï)-2150(a)-250(|)-250(b)-250(--> {a, b})]TJ
-T*
-[(ï)-2150(a)-250(.)-250(b)-250(--> {ab})]TJ
-T*
-[(ï)-2150(a)0(*)-250(--> {empty string, a, aa, aaa, ...})]TJ
+0 g
+0 -1.92 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(strings that expand to a set of strings)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(operators: or |, concatenation . , star *)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(a)-250(|)-250(b)-250(--> {a, b})]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(a)-250(.)-250(b)-250(--> {ab})]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(a* --> {empty string, a, aa, aaa, ...})Tj
 /TT4 1 Tf
-0 -3.6 TD
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
 (chapter 4)Tj
 T*
-[(chapter 5 - context fr)18(ee grammars)]TJ
+(chapter 5 - context free grammars)Tj
 /TT2 1 Tf
-0 -2.76 TD
-[(e)-250(i)0(s)-250(the empty string \(length 0\))]TJ
+0 0 0 rg
 0 -1.56 TD
-[(ï)-2150(S)-250(--> AB)]TJ
+[(e)-250(i)0(s)-250(the empty string \(length 0\))]TJ
+0 g
 T*
-[(ï)-2150(A)-250(--> Aa | e)]TJ
-T*
-[(ï)-2150(B)-250(--> Bb | e)]TJ
-T*
-[(ï)-2150(start symbol)]TJ
-T*
-[(ï)-2150(parse string)]TJ
-T*
-[(ï)-2150(production rules)]TJ
-18.295 -4.98 TD
-(28 January 2020)Tj
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(S)-250(--> AB)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(A)-250(--> Aa | e)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(B)-250(--> Bb | e)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(start symbol)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(parse string)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(pr)18(oduction r)8(ules)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(S)-250(--> AB --> ABb --> Bb --> b)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(accepts any string such that you can derive the string fr)18(om the start symbol)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(used in parser)Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
+(chapter 6 - pushdown automata)Tj
+/TT2 1 Tf
+0 g
+0 -1.92 TD
+(ï)Tj
+/TT6 1 Tf
+0 0 0 rg
+2.5 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(nite state machine with a stack)Tj
+0 g
+15.0106 -5.58 TD
+(29 January 2020)Tj
 ET
 endstream
 endobj
@@ -103,15 +218,16 @@ endobj
 /TT2 4 0 R
 /TT4 5 0 R
 /TT5 6 0 R
+/TT6 7 0 R
 >>
 /ExtGState <<
-/GS1 7 0 R
+/GS1 8 0 R
 >>
 >>
 endobj
-10 0 obj
+11 0 obj
 <<
-/Length 1393
+/Length 1101
 >>
 stream
 BT
@@ -123,93 +239,101 @@ BT
 0 Tw
 (-2-)Tj
 -21.017 -3.6 TD
-[(ï)-2150(S)-250(--> AB --> ABb --> Bb --> b)]TJ
-0 -1.56 TD
-[(ï)-2150(accepts an)15(y)-250(string such that you can deri)25(v)15(e)15( )-15(the string from the start symbol)]TJ
-T*
-[(ï)-2150(used in parser)]TJ
-/TT4 1 Tf
-0 -3.6 TD
-[(chapter 6 - pushdo)10(wn automata)]TJ
-/TT2 1 Tf
-0 -3.12 TD
 (ï)Tj
-/TT6 1 Tf
-2.5001 0 TD
-(ﬁ)Tj
-/TT2 1 Tf
-0.5562 0 TD
-(nite state machine with a stack)Tj
--3.0562 -1.56 TD
-[(ï)-2150(transition states based on input and store memory)]TJ
+0 0 0 rg
+2.5 0 TD
+[(transition states based on input and stor)18(e)-250(memory)]TJ
 /TT4 1 Tf
-0 -3.6 TD
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
 (chapter 7 - turing machines)Tj
 /TT2 1 Tf
-0 -2.76 TD
-[(íhardw)10(areí)]TJ
+0 0 0 rg
+0 -1.56 TD
+[(íhar)18(dwar)18(eí)]TJ
 ET
-0 G
+0 0 0 RG
 1 J 1 j 0.4 w 10 M []0 d
 1 i 
-72.03 527.91 m
-115.71 527.91 l
+72.03 665.91 m
+120.15 665.91 l
 S
 BT
-10 0 0 10 72 514.8 Tm
-[(ï)-2150(tape)]TJ
-0 -1.56 TD
-[(ï)-2150(input string on tape)]TJ
-T*
-2.15 Tc
-[(ïi)2150(n)]TJ
+10 0 0 10 72 652.8 Tm
+0 g
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(tape)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(input string on tape)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(in)Tj
 /TT6 1 Tf
-3.2779 0 TD
-0 Tc
+0.873 0 TD
 (ﬁ)Tj
 /TT2 1 Tf
-0.5562 0 TD
+0.605 0 TD
 (nite tape)Tj
--3.8341 -1.56 TD
-[(ï)-2150(read/write head)]TJ
-0 -2.76 TD
-[(í)55(softw)10(areí)]TJ
+0 g
+-3.978 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(r)18(ead/write head)]TJ
+-2.5 -2.76 TD
+[(ísoftwar)18(eí)]TJ
 ET
-72.03 437.91 m
-112.47 437.91 l
+72.03 575.91 m
+115.71 575.91 l
 S
 BT
-10 0 0 10 72 424.8 Tm
-[(ï)-2150(transition function)]TJ
-0 -1.56 TD
-[(ï)-2150(set of rules i ha)20(v)15(e)15( )-15(to)-250(follo)25(w)-250(t)0(o)-250(m)]TJ
-15.4377 0 TD
--0.015 Tc
-(ove )Tj
-1.6638 0 TD
-0 Tc
-(across this tape)Tj
--17.1015 -1.56 TD
-[(ï)-2150(transition function gets comple)15(x)-250(\(can represent an)15(y)-250(algo\))]TJ
-18.295 -36.96 TD
-(28 January 2020)Tj
+10 0 0 10 72 562.8 Tm
+0 g
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(transition function)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(set of r)8(ules i have to follow to move acr)18(oss this tape)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(transition function gets complex \(can r)18(epr)18(esent any algo\))]TJ
+0 g
+15.6155 -50.76 TD
+(29 January 2020)Tj
 ET
 endstream
 endobj
-11 0 obj
+12 0 obj
 <<
 /ProcSet [/PDF /Text ]
 /Font <<
 /TT2 4 0 R
 /TT4 5 0 R
-/TT6 12 0 R
+/TT6 7 0 R
 >>
 /ExtGState <<
-/GS1 7 0 R
+/GS1 8 0 R
 >>
 >>
 endobj
-7 0 obj
+8 0 obj
 <<
 /Type /ExtGState
 /SA false
@@ -226,60 +350,60 @@ endobj
 13 0 obj
 <<
 /Type /FontDescriptor
-/Ascent 750
-/CapHeight 662
-/Descent -250
+/Ascent 822
+/CapHeight 692
+/Descent -277
 /Flags 34
-/FontBBox [-168 -218 1000 898]
-/FontName /Times-Roman
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
 /ItalicAngle 0
 /StemV 84
-/XHeight 450
+/XHeight 469
 /StemH 84
 >>
 endobj
 14 0 obj
 <<
 /Type /FontDescriptor
-/Ascent 750
-/CapHeight 676
-/Descent -250
+/Ascent 822
+/CapHeight 681
+/Descent -277
 /Flags 262178
-/FontBBox [-168 -218 1000 935]
-/FontName /Times-Bold
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
 /ItalicAngle 0
 /StemV 133
-/XHeight 461
-/StemH 139
+/XHeight 471
+/StemH 122
 >>
 endobj
 15 0 obj
 <<
 /Type /FontDescriptor
-/Ascent 750
-/CapHeight 676
-/Descent -250
+/Ascent 822
+/CapHeight 681
+/Descent -277
 /Flags 262178
-/FontBBox [-168 -218 1000 935]
-/FontName /Times-Bold
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
 /ItalicAngle 0
 /StemV 133
-/XHeight 461
-/StemH 139
+/XHeight 471
+/StemH 122
 >>
 endobj
 16 0 obj
 <<
 /Type /FontDescriptor
-/Ascent 750
-/CapHeight 662
-/Descent -250
+/Ascent 822
+/CapHeight 692
+/Descent -277
 /Flags 34
-/FontBBox [-168 -218 1000 898]
-/FontName /Times-Roman
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
 /ItalicAngle 0
 /StemV 84
-/XHeight 450
+/XHeight 469
 /StemH 84
 >>
 endobj
@@ -289,16 +413,16 @@ endobj
 /Subtype /TrueType
 /FirstChar 32
 /LastChar 149
-/Widths [250 0 0 0 0 0 0 0 333 333 500 0 250 333 250 278 
-500 0 500 0 0 500 500 0 500 0 278 0 0 0 564 0 
-0 722 667 667 0 0 0 0 0 0 389 0 0 0 0 0 
-0 0 0 556 611 0 0 0 0 0 0 0 0 0 0 0 
-0 444 500 444 500 444 333 500 500 278 278 500 278 778 500 500 
-500 0 333 389 278 500 500 722 500 500 0 480 200 480 0 0 
+/Widths [250 0 0 0 0 0 0 0 333 333 389 0 250 333 250 606 
+500 0 500 0 0 500 500 0 0 500 250 0 0 0 606 0 
+0 778 611 709 0 0 0 0 0 0 333 0 0 0 0 0 
+0 0 0 525 613 0 0 0 0 0 0 0 0 0 0 0 
+0 500 553 444 611 479 333 556 582 291 234 556 291 883 582 546 
+601 0 395 424 326 603 565 834 516 556 0 333 606 333 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-0 0 333 0 0 350 ]
+0 0 278 0 0 606 ]
 /Encoding /WinAnsiEncoding
-/BaseFont /Times-Roman
+/BaseFont /Palatino-Roman
 /FontDescriptor 13 0 R
 >>
 endobj
@@ -310,12 +434,12 @@ endobj
 /LastChar 120
 /Widths [250 0 0 0 0 0 0 0 333 333 0 0 0 333 0 0 
 0 500 500 500 500 500 500 500 0 0 0 0 0 0 0 0 
-0 722 0 0 722 0 611 0 0 0 0 0 667 0 0 0 
+0 778 0 0 833 0 556 0 0 0 0 0 611 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-0 500 0 444 556 444 333 500 556 278 0 0 278 833 556 500 
-556 0 444 389 333 556 500 722 500 ]
+0 500 0 444 611 500 389 556 611 333 0 0 333 889 611 556 
+611 0 389 444 333 611 556 833 500 ]
 /Encoding /WinAnsiEncoding
-/BaseFont /Times-Bold
+/BaseFont /Palatino-Bold
 /FontDescriptor 14 0 R
 >>
 endobj
@@ -325,38 +449,38 @@ endobj
 /Subtype /TrueType
 /FirstChar 222
 /LastChar 222
-/Widths [556 ]
+/Widths [611 ]
 /Encoding /MacRomanEncoding
-/BaseFont /Times-Bold
+/BaseFont /Palatino-Bold
 /FontDescriptor 15 0 R
 >>
 endobj
-12 0 obj
+7 0 obj
 <<
 /Type /Font
 /Subtype /TrueType
 /FirstChar 222
 /LastChar 222
-/Widths [556 ]
+/Widths [605 ]
 /Encoding /MacRomanEncoding
-/BaseFont /Times-Roman
+/BaseFont /Palatino-Roman
 /FontDescriptor 16 0 R
 >>
 endobj
 1 0 obj
 <<
 /Type /Page
-/Parent 8 0 R
+/Parent 9 0 R
 /Resources 3 0 R
 /Contents 2 0 R
 >>
 endobj
-9 0 obj
+10 0 obj
 <<
 /Type /Page
-/Parent 8 0 R
-/Resources 11 0 R
-/Contents 10 0 R
+/Parent 9 0 R
+/Resources 12 0 R
+/Contents 11 0 R
 >>
 endobj
 17 0 obj
@@ -369,58 +493,58 @@ endobj
 /Nums [0 17 0 R ]
 >>
 endobj
-8 0 obj
+9 0 obj
 <<
 /Type /Pages
-/Kids [1 0 R 9 0 R]
+/Kids [1 0 R 10 0 R]
 /Count 2
 /MediaBox [0 0 612 792]
 >>
 endobj
 19 0 obj
 <<
-/CreationDate (D:20200128150528-05'00')
-/ModDate (D:20200128150528-05'00')
+/CreationDate (D:20200129184618-05'00')
+/ModDate (D:20200129184618-05'00')
 /Producer (Apple pstopdffilter)
 >>
 endobj
 20 0 obj
 <<
 /Type /Catalog
-/Pages 8 0 R
+/Pages 9 0 R
 /PageLabels 18 0 R
 >>
 endobj
 xref
 0 21
 0000000000 65535 f 
-0000005656 00000 n 
+0000006482 00000 n 
 0000000016 00000 n 
-0000001773 00000 n 
-0000004393 00000 n 
-0000004900 00000 n 
-0000005316 00000 n 
-0000003455 00000 n 
-0000005886 00000 n 
-0000005736 00000 n 
-0000001890 00000 n 
-0000003336 00000 n 
-0000005485 00000 n 
-0000003595 00000 n 
-0000003792 00000 n 
-0000003994 00000 n 
-0000004196 00000 n 
-0000005818 00000 n 
-0000005846 00000 n 
-0000005973 00000 n 
-0000006102 00000 n 
+0000002858 00000 n 
+0000005208 00000 n 
+0000005718 00000 n 
+0000006137 00000 n 
+0000006309 00000 n 
+0000004258 00000 n 
+0000006713 00000 n 
+0000006562 00000 n 
+0000002986 00000 n 
+0000004140 00000 n 
+0000004398 00000 n 
+0000004598 00000 n 
+0000004803 00000 n 
+0000005008 00000 n 
+0000006645 00000 n 
+0000006673 00000 n 
+0000006801 00000 n 
+0000006930 00000 n 
 trailer
 <<
 /Size 21
 /Root 20 0 R
 /Info 19 0 R
-/ID [<e933907cf96cd6c63179b66b6abbe79c><e933907cf96cd6c63179b66b6abbe79c>]
+/ID [<ef023462f45f8cace20f7f3960f6be55><ef023462f45f8cace20f7f3960f6be55>]
 >>
 startxref
-6171
+6999
 %%EOF
