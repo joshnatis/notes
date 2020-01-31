@@ -1,0 +1,671 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 2888
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0.1 0.5 0.2 rg
+/GS1 gs
+0 Tc
+0 Tw
+[(CS260, Computer Ar)18(chitectur)18(e)-250(I)0(I)]TJ
+/TT4 1 Tf
+12 0 0 12 263.172 657 Tm
+0 0 0 rg
+(Lecture 2)Tj
+/TT2 1 Tf
+10 0 0 10 97 617.4 Tm
+0.0965 Tw
+[(This session was spent r)18(eviewing the basic components of computers and their r)18(ela-)]TJ
+0 -1.2 TD
+0.0794 Tw
+[(tion to one another \(as well as their r)18(elation to computer pr)18(ograms\). )-250(Speci)]TJ
+/TT5 1 Tf
+33.7317 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+[(cally)111(,)-329.4(w)0(e)]TJ
+-34.3367 -1.2 TD
+0.0468 Tw
+[(discussed the CPU, RAM, Storage Devices, and the Clock. W)92(e)-296.8(also discussed the con-)]TJ
+T*
+0 Tw
+(cept of a ímachine cycleí.)Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
+(Machine Cycle)Tj
+/TT2 1 Tf
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(The CPU executes instr)8(uctions.)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(A)-250(Machine Cycle)]TJ
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+107.31 523.71 m
+172.83 523.71 l
+S
+BT
+10 0 0 10 175.31 526.2 Tm
+[(is the sequence of steps that the CPU takes to execute one instr)8(uction)]TJ
+0 g
+-5.331 -2.76 TD
+(1)Tj
+0 0 0 rg
+2 0 TD
+(FETCH)Tj
+0 g
+-2 -1.56 TD
+(2)Tj
+0 0 0 rg
+2 0 TD
+(DECODE)Tj
+0 g
+-2 -1.56 TD
+(3)Tj
+0 0 0 rg
+2 0 TD
+(EXECUTE)Tj
+0 g
+-2 -1.56 TD
+(4)Tj
+0 0 0 rg
+2 0 TD
+(WRITE BACK)Tj
+0 g
+-7 -2.76 TD
+(ï)Tj
+/TT7 1 Tf
+0 0 0 rg
+2.5 0 TD
+(Fetch - copy the command to the CPU)Tj
+0 -2.4 TD
+(Decode - understand what to do with the command)Tj
+T*
+(Execute - execute the command)Tj
+T*
+[(W)20(rite back - take r)18(esults and put them back wher)18(e)-250(they should be)]TJ
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -3.6 TD
+(RAM)Tj
+/TT2 1 Tf
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Random-access Memory)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Everything used by the CPU has to be loaded into RAM )Tj
+/TT5 1 Tf
+24.9819 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(rst:)Tj
+0 g
+-25.5869 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1712 Tw
+[(Pr)18(ograms \(set of instr)8(uctions for CPU to execute\). Each instr)8(uction is fetched fr)18(om)]TJ
+0 -1.2 TD
+0 Tw
+(RAM to the CPU.)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Data \(text, images, etc\))Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0816 Tw
+[(etc, literally anything, the CPU does not interface with the har)18(d)-331.6(drive \(canít get data)]TJ
+0 -1.2 TD
+0 Tw
+[(dir)18(ectly fr)18(om it\))]TJ
+0 g
+-5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(V)111(olatile)]TJ
+ET
+96.99 172.11 m
+130.35 172.11 l
+S
+BT
+10 0 0 10 132.85 174.6 Tm
+[(-)-250(data is lost when the power is lost)]TJ
+0 g
+-6.085 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Slow compar)18(ed to the CPU, extr)18(emely fast compar)18(ed to storage devices)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Memory Stall)Tj
+ET
+96.99 140.91 m
+156.87 140.91 l
+S
+BT
+10 0 0 10 159.38 143.4 Tm
+[(-)-250(CPU halts to wait for data fr)18(om RAM \(due to speed dif)18(fer)18(ences\))]TJ
+0 g
+9.3775 -11.94 TD
+(30 January 2020)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 6 0 R
+/TT7 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+>>
+endobj
+11 0 obj
+<<
+/Length 3998
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-21.017 -3.6 TD
+(Storage Device)Tj
+/TT2 1 Tf
+0 g
+0 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[("Storage Device" is the general term for har)18(d)-250(disks/solid state drives and so on)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Stor)18(es data \(in )]TJ
+/TT5 1 Tf
+6.5699 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(les\))Tj
+0 g
+-7.1748 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Pr)18(ogram )]TJ
+/TT5 1 Tf
+4.1109 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+[(les ar)18(e)-250(called executable )]TJ
+/TT5 1 Tf
+10.836 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(les)Tj
+0 g
+-21.1568 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Canít fetch commands fr)18(om the har)18(d)-250(disk)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Nothing can be displayed/ran/edited/etc in har)18(d)-250(disk, only in RAM)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Or)18(ders of magnitude slower than RAM)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Maintains state even after power)18(-of)18(f)]TJ
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -3.6 TD
+(CPU)Tj
+/TT2 1 Tf
+0 g
+0 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Central Pr)18(ocessing Unit)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Executes instr)8(uctions as de)]TJ
+/TT5 1 Tf
+11.8714 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(ned by its logic components / wiring)Tj
+0 g
+-14.9763 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0241 Tw
+[(Every CPU ar)18(chitectur)18(e)-274.1(has its own CPU)-250(instr)8(uction )24.1(set)]TJ
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+257.79 489.51 m
+343.95 489.51 l
+S
+BT
+10 0 0 10 346.747 492 Tm
+[(,)-274.1(which is the set of instr)8(uctions the)]TJ
+-24.9747 -1.2 TD
+0 Tw
+(CPU natively understands)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1356 Tw
+(Only understands machine language \(binary\), but at some point people thought of map-)Tj
+0 -1.2 TD
+0 Tw
+[(ping human r)18(eadable ímnemonicí commands to each machine instr)8(uction)]TJ
+0 g
+0 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1583 Tw
+[(As time went on, mor)18(e)-408.4(and mor)18(e)-408.4(was abstracted, leading to higher level assembly)]TJ
+0 -1.2 TD
+0.0358 Tw
+[(instr)8(uctions that corr)18(esponded to multiple machine instr)8(uctions \(as opposed to a one-)]TJ
+T*
+0.1658 Tw
+[(to-one r)18(elationship\), and eventually modern so-called high level pr)18(ogramming lan-)]TJ
+T*
+0 Tw
+[(guages which completely obscur)18(e)-250(the underlying computer ar)18(chitectur)18(e.)]TJ
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-5 -3.6 TD
+(Clock)Tj
+/TT2 1 Tf
+0 g
+0 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Synchr)18(onization device)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1106 Tw
+[(In or)18(der to keep the dif)18(fer)18(ent computer components or)18(ganized and in sync, ther)18(e)-360.6(exists a)]TJ
+0 -1.2 TD
+0 Tw
+(íclockí)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(The clock r)18(eleases electric pulses at a certain pr)18(ede)]TJ
+/TT5 1 Tf
+22.2682 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(ned pace \(#pulses / second\))Tj
+0 g
+-22.8731 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(The clock is to the computer as a dr)8(ummer is to a band)]TJ
+0 g
+-5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Measur)18(ed in Hertz \(Hz\), e.g. 2.5 gHz is 2.5 billion pulses per second.)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Each pulse of the clock ushers in one machine cycle)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(This means that, in theory)111(,)-250(a)-250(faster clock r)18(esults in a faster computer)74(.)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1581 Tw
+(The clock can only be as fast as the slowest component in the computer \(otherwise that)Tj
+0 -1.2 TD
+0 Tw
+(component canít keep up, and all will be out of sync\))Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.25 -4.8 TD
+(Note)Tj
+/TT7 1 Tf
+0 0 0 rg
+-0.25 -1.56 TD
+0.0832 Tw
+[(Shostak asserts that a pr)18(ogram written in assembly can outperform a modern compiler \(with a high level)]TJ
+0 -1.2 TD
+0 Tw
+[(language\). Hopefully he pr)18(ovides some sort of example or further information next class.)]TJ
+/TT2 1 Tf
+0 g
+18.1155 -9.24 TD
+(30 January 2020)Tj
+ET
+endstream
+endobj
+12 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 6 0 R
+/TT7 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+>>
+endobj
+8 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+14 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+16 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 371 606 0 0 0 0 333 333 0 0 250 333 250 606 
+500 500 500 500 500 500 500 0 0 0 250 0 0 0 0 0 
+0 778 611 709 774 611 556 0 832 337 333 726 0 946 831 786 
+604 0 668 525 613 778 722 1000 667 0 0 0 0 0 0 0 
+0 500 553 444 611 479 333 556 582 291 0 556 291 883 582 546 
+601 560 395 424 326 603 565 834 516 556 500 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 0 0 606 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 13 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 500 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 778 0 722 833 0 0 0 0 0 0 0 611 1000 833 0 
+611 0 722 611 0 778 0 0 0 0 0 0 0 0 0 0 
+0 500 0 444 0 500 0 556 611 333 0 611 333 0 611 556 
+0 0 389 0 333 611 556 0 0 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 14 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [605 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 15 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 0 333 250 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 667 778 611 556 0 778 0 0 0 0 0 0 0 
+611 0 0 556 0 778 0 944 0 0 0 0 0 0 0 0 
+0 444 463 407 500 389 278 500 500 278 0 444 278 778 556 444 
+500 0 389 389 333 556 500 722 500 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 16 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 12 0 R
+/Contents 11 0 R
+>>
+endobj
+17 0 obj
+<<
+/S /D
+>>
+endobj
+18 0 obj
+<<
+/Nums [0 17 0 R ]
+>>
+endobj
+9 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 10 0 R]
+/Count 2
+/MediaBox [0 0 612 792]
+>>
+endobj
+19 0 obj
+<<
+/CreationDate (D:20200130202407-05'00')
+/ModDate (D:20200130202407-05'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 9 0 R
+/PageLabels 18 0 R
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000009759 00000 n 
+0000000016 00000 n 
+0000002956 00000 n 
+0000008212 00000 n 
+0000008753 00000 n 
+0000009159 00000 n 
+0000009332 00000 n 
+0000007264 00000 n 
+0000009990 00000 n 
+0000009839 00000 n 
+0000003084 00000 n 
+0000007135 00000 n 
+0000007404 00000 n 
+0000007604 00000 n 
+0000007809 00000 n 
+0000008009 00000 n 
+0000009922 00000 n 
+0000009950 00000 n 
+0000010078 00000 n 
+0000010207 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [<fee229981305e69b9334a319bd1f022e><fee229981305e69b9334a319bd1f022e>]
+>>
+startxref
+10276
+%%EOF
