@@ -6,7 +6,6 @@ CS335, Algorithms
 .neerg
 .TL 
 Lecture 1
-
 .QP
 New topics include the
 .CW explicit
@@ -62,7 +61,7 @@ Range based For loops
 .IP \[bu]
 x cannot be modified (it's a copy)
 
-.KF
+.KS
 .green
 .SH
 lvalues and rvalues

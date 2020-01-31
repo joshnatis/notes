@@ -8,3 +8,7 @@
 .de neerg
 .gcolor black
 ..
+
+.de oval
+\M[grey]\h'-0.1i'\D'E 1.1i 0.75i'\M[]
+..

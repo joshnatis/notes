@@ -1,6 +1,6 @@
 .so ../../macros
 .DA
-\M[grey]\h'-0.1i'\D'E 1.1i 0.75i'\M[]
+.oval
 .TL
 Lecture 1
 .green
@@ -75,6 +75,7 @@ accepts any string such that you can derive the string from the start symbol
 .IP \[bu]
 used in parser
 .green
+.KS
 .SH
 chapter 6 - pushdown automata
 .neerg
@@ -85,6 +86,7 @@ finite state machine with a stack
 transition states based on input and store memory
 .green
 .SH
+.KE
 chapter 7 - turing machines 
 .neerg
 .LP
