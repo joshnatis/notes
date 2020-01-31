@@ -22,5 +22,6 @@ echo ""
 echo ".IP marker - list \\[bu]"
 echo ".1C/.2C - column mode"
 echo "\\\" comment"
+echo "\*Q, \*U - produce quotes"
 
 tput sgr0
