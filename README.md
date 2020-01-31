@@ -4,18 +4,21 @@
 
 1. __CS260 - Computer Architecture II__
 
-    * Taught by Pavel Shostak,
+      * Taught by Pavel Shostak,
 [Syllabus](https://github.com/joshnatis/notes/blob/master/260/syllabus/cs260_syllabus.pdf)
+         * [Lecture 2](https://github.com/joshnatis/notes/blob/master/260/lecture1_260.pdf)
 
 2. __CS265 - Computer Theory I__
 
     * Taught by Jaime Canizales,
 [Syllabus](https://github.com/joshnatis/notes/blob/master/265/syllabus/cs265_syllabus.pdf)
+         * [Lecture 1](https://github.com/joshnatis/notes/blob/master/265/lecture1_265.pdf)
 
 3. __CS335 - Software Design and Analysis III__
 
     * Taught by Anita Raja,
 [Syllabus](https://github.com/joshnatis/notes/blob/master/335/syllabus/cs335_syllabus.pdf)
+         * [Lecture 1](https://github.com/joshnatis/notes/blob/master/335/lecture1_335.pdf)
 
 ## Background Information
 
