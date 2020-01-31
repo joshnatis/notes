@@ -6,7 +6,7 @@
 
       * Taught by Pavel Shostak,
 [Syllabus](https://github.com/joshnatis/notes/blob/master/260/syllabus/cs260_syllabus.pdf)
-         * [Lecture 2](https://github.com/joshnatis/notes/blob/master/260/lecture1_260.pdf)
+         * [Lecture 2](https://github.com/joshnatis/notes/blob/master/260/lecture2_260.pdf)
 
 2. __CS265 - Computer Theory I__
 
