@@ -8,19 +8,20 @@ if [ -z "$1" ]; then
 	exit
 fi
 
-if [ "$class" = "cs265" ] || [ "$class" = "CS265" ]; then
+if [ "$class" = "cs265" ] || [ "$class" = "CS265" ] || [ "$class" = "265" ]; then
 	class="CS265, Computer Theory I"
-elif [ "$class" = "cs335" ] || [ "$class" = "CS335" ]; then
+elif [ "$class" = "cs335" ] || [ "$class" = "CS335" ] || [ "$class" = "335" ]; then
 	class="CS335, Algorithms"
-elif [ "$class" = "cs260" ] || [ "$class" = "CS260" ]; then
-	class="CS260, Assembly Language and Computer Architecture"
+elif [ "$class" = "cs260" ] || [ "$class" = "CS260" ] || [ "$class" = "260" ]; then
+	class="CS260, Computer Architecture II"
 elif [ -z "$class" ]; then
 	class="CUNY Hunter College"
 fi
 
 touch "$file"
 
-echo ".DA" > "$file"
+echo ".so ../../macros" > "$file"
+echo ".DA" >> "$file"
 echo ".AU" >> "$file"
 echo "$class" >> "$file"
 echo ".TL" >> "$file"
