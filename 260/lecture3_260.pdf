@@ -1,0 +1,1150 @@
+%PDF-1.3
+%âãÏÓ
+2 0 obj
+<<
+/Length 3254
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0.1 0.5 0.2 rg
+/GS1 gs
+0 Tc
+0 Tw
+[(CS260, Computer Ar)18(chitectur)18(e)-250(I)0(I)]TJ
+/TT4 1 Tf
+12 0 0 12 263.172 657 Tm
+0 0 0 rg
+(Lecture 3)Tj
+/TT2 1 Tf
+10 0 0 10 97 617.4 Tm
+0.052 Tw
+[(In this lectur)18(e)-302(w)0(e)-302(discussed why the clock rate of a computer doesn’t necessarily cor)18(-)]TJ
+0 -1.2 TD
+0.1776 Tw
+[(r)18(espond to its speed. W)92(e)-427.6(also looked at ways we can compar)18(e/discuss the perfor)18(-)]TJ
+T*
+0.1212 Tw
+[(mances of multiple computers, culminating in benchmarking and practice pr)18(oblems)]TJ
+T*
+0 Tw
+[(on performance fr)18(om the textbook.)]TJ
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
+(Why does a clock rate not correspond directly to the speed of a computer?)Tj
+/TT2 1 Tf
+0 g
+0 -2.76 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+[(Computers can incr)18(ease the clock rate at high loads \(dynamic clock speed adjustments\))]TJ
+0 g
+0 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+[(Only temporarily)111(,)-250(though, cause the CPU can over)18(heat)]TJ
+0 g
+-2.5 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+[(Base clock speed / base fr)18(equency is the default speed)]TJ
+0 g
+-5 -2.76 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+[(The existence of multicor)18(e)-250(CPUs \(multiple CPUs/pr)18(ocessors in one\))]TJ
+0 g
+0 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+(e.g.)Tj
+/TT6 1 Tf
+2.0352 0 TD
+[(8)-600(*)-600(2.3 GHz > 3 * 3.6 GHz)]TJ
+/TT2 1 Tf
+0 g
+-4.5351 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+0.0346 Tw
+(Note: The system is)Tj
+/TT8 1 Tf
+9.051 0 TD
+0 Tw
+(potentially)Tj
+/TT2 1 Tf
+4.6171 0 TD
+0.0346 Tw
+[(mor)18(e)-284.6(powerful, but many pr)18(ograms only utilize 1 cor)18(e,)]TJ
+-13.6681 -1.2 TD
+0 Tw
+[(so r)18(ealistically a pr)18(ogram might r)8(un fatser on the latter computer)74(.)]TJ
+0 g
+-5 -2.76 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+0.2059 Tw
+[(The same instr)8(uction set on dif)18(fer)18(ent CPUs may be implemented dif)18(fer)18(ent in har)18(dwar)18(e)]TJ
+0 -1.2 TD
+0 Tw
+[(\(ar)18(chitectur)18(e)-250(implementations\))]TJ
+2.5 -2.4 TD
+(Example)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+121.95 361.71 m
+160.83 361.71 l
+S
+BT
+/TT6 1 Tf
+10 0 0 10 122 348.6 Tm
+(Comp A: 2 GHz, 1 cycles per instruction \(CPI\))Tj
+T*
+(Comp B: 3 GHz, 3 cycles per instruction)Tj
+/TT8 1 Tf
+T*
+0.1139 Tw
+(Comp A executes 2 billion instructions per second, Comp B executes only 1 billion instruc-)Tj
+0 -1.2 TD
+0.147 Tw
+(tions per second. Comp A is faster despite having a slower clock rate \(this could be due to)Tj
+T*
+0 Tw
+[(ar)18(chitectur)18(e)-250(implementation differ)18(ences\))]TJ
+/TT2 1 Tf
+0 g
+-5 -2.76 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+(Other parts of the computer exist besides the CPU)Tj
+0 g
+0 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+(RAM \(a bottleneck\))Tj
+0 g
+-2.5 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+0.0208 Tw
+(If the RAM sucks, that signi)Tj
+/TT9 1 Tf
+12.3818 0 TD
+0 Tw
+(Þ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.0208 Tw
+[(cantly af)18(fects the operation of the computer system \(con-)]TJ
+-12.9868 -1.2 TD
+0 Tw
+(stant memory stalls\))Tj
+/TT4 1 Tf
+-5 -2.76 TD
+[(T)111(akeaway:)]TJ
+/TT2 1 Tf
+5.1063 0 TD
+0.0503 Tw
+(No single piece of information can de)Tj
+/TT9 1 Tf
+16.8653 0 TD
+0 Tw
+(Þ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.0502 Tw
+[(ne/describe the computer)74(,)-300.2(all aspects/compo-)]TJ
+-22.5765 -1.2 TD
+0 Tw
+[(nents af)18(fect performance)]TJ
+0 g
+17.8355 -14.22 TD
+[(18 Febr)8(uary 2020)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT9 8 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 3400
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-21.017 -3.6 TD
+(How can we compare?)Tj
+0 0 0 rg
+0 -2.4 TD
+(Benchmarks)Tj
+/TT2 1 Tf
+0 g
+0 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+[(consists of test pr)18(ogram\(s\) to execute)]TJ
+0 g
+-2.5 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+[(compar)18(e)-250(benchmark performance between multiple computers)]TJ
+0 g
+-2.5 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+0.0271 Tw
+(downsides: some computers have parts specialized for certain benchmarks, so you may not)Tj
+0 -1.2 TD
+0 Tw
+[(get an accurate r)18(esult \(solution: use many varied benchmarks\))]TJ
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
+(Some formulas and de)Tj
+/TT10 1 Tf
+10.25 0 TD
+(Þ)Tj
+/TT4 1 Tf
+0.6108 0 TD
+(nitions)Tj
+/TT8 1 Tf
+0 0 0 rg
+-10.8558 -3 TD
+(CYCLES)Tj
+/TT12 1 Tf
+4.0041 0 TD
+(=)Tj
+/TT8 1 Tf
+0.8258 0 TD
+(TIME)Tj
+/TT2 1 Tf
+2.7875 0 TD
+(\()Tj
+/TT8 1 Tf
+0.374 0 TD
+(seconds)Tj
+/TT2 1 Tf
+3.0807 0 TD
+(\))Tj
+/TT12 1 Tf
+0.553 0 TD
+(×)Tj
+/TT8 1 Tf
+0.8188 0 TD
+(FREQUENCY)Tj
+/TT2 1 Tf
+6.4503 0 TD
+(\()Tj
+/TT8 1 Tf
+0.386 0 TD
+(Hz)Tj
+/TT2 1 Tf
+1.2437 0 TD
+(\))Tj
+/TT8 1 Tf
+-20.488 -2.944 TD
+(PERFORMANCE)Tj
+/TT12 1 Tf
+7.9003 0 TD
+(=)Tj
+/TT2 1 Tf
+5.0838 0.7 TD
+(1)Tj
+/TT8 1 Tf
+-4.115 -1.4 TD
+0.103 Tw
+(EXECUTION TIME)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+160.95 544.35 m
+248.67 544.35 l
+S
+BT
+/TT2 1 Tf
+10 0 0 10 97 516.48 Tm
+0 g
+0 Tw
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+0.1595 Tw
+[(Execution time is the pur)18(e)-409.6(time spent executing a pr)18(ogram \(assuming no interr)8(up-)]TJ
+0 -1.2 TD
+0 Tw
+(tions\)")Tj
+0 g
+-2.5 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+[(Y)92(o)0(u)-250(can measur)18(e)-250(this time in either seconds or cycles")]TJ
+/TT8 1 Tf
+-4.98 -3.556 TD
+0.103 Tw
+(EXECUTION TIME)Tj
+/TT12 1 Tf
+9.0287 0 TD
+0 Tw
+(=)Tj
+/TT2 1 Tf
+0.8288 0 TD
+(#)Tj
+/TT8 1 Tf
+0.929 0 TD
+(INSTRUCTIONS)Tj
+/TT12 1 Tf
+7.6653 0 TD
+(×)Tj
+/TT8 1 Tf
+0.7738 0 TD
+(CPI)Tj
+/TT12 1 Tf
+1.9018 0 TD
+(×)Tj
+/TT8 1 Tf
+0.7738 0 TD
+0.101 Tw
+[(CLOCK CYCLE)-286(TIME)]TJ
+/TT12 1 Tf
+9.9275 0 TD
+0 Tw
+(=)Tj
+/TT2 1 Tf
+0.9488 0.7 TD
+(#)Tj
+/TT8 1 Tf
+0.929 0 TD
+(INSTRUCTIONS)Tj
+/TT12 1 Tf
+7.6653 0 TD
+(×)Tj
+/TT8 1 Tf
+0.7738 0 TD
+(CPI)Tj
+-6.8512 -1.4 TD
+(FREQUENCY)Tj
+ET
+398.91 455.91 m
+508.35 455.91 l
+S
+BT
+10 0 0 10 72.05 418.37 Tm
+0.101 Tw
+[(CLOCK CYCLE)-286(TIME)]TJ
+/TT12 1 Tf
+9.9275 0 TD
+0 Tw
+(=)Tj
+/TT2 1 Tf
+3.8093 0.7 TD
+(1)Tj
+/TT8 1 Tf
+-2.8105 -1.4 TD
+(FREQUENCY)Tj
+ET
+180.87 420.99 m
+243.03 420.99 l
+S
+BT
+/TT2 1 Tf
+10 0 0 10 72 382.86 Tm
+(CPI)Tj
+ET
+72.03 380.31 m
+88.47 380.31 l
+S
+BT
+10 0 0 10 91 382.86 Tm
+[(-)-250(Cycles per Instr)8(uction)]TJ
+0 g
+0.6 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+[(The average number of clock cycles per instr)8(uction for a pr)18(ogram)]TJ
+0 g
+-2.5 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+0.1384 Tw
+[(Each instr)8(uction takes integer number of cycles, but on average it can be a )]TJ
+/TT9 1 Tf
+34.7914 0 TD
+0 Tw
+(ß)Tj
+/TT2 1 Tf
+0.6079 0 TD
+(oating)Tj
+-35.3993 -1.2 TD
+(point)Tj
+0 g
+-2.5 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+0.0112 Tw
+[(The CPI can be < 1 \(e.g. 0.5\) if multiple cor)18(es of a CPU execute multiple instr)8(uctions in)]TJ
+0 -1.2 TD
+0 Tw
+(one cycle)Tj
+-5 -2.4 TD
+[(Dynamic instr)8(uction count)]TJ
+ET
+72.03 285.51 m
+190.35 285.51 l
+S
+BT
+10 0 0 10 193.455 288.06 Tm
+0.0625 Tw
+[(-)-312.5(number of instr)8(uctions a pr)18(ogram has, dynamic meaning that loops)]TJ
+-12.1455 -1.2 TD
+0 Tw
+[(and etc ar)18(e)-250(taken into account)]TJ
+0 g
+17.8355 -25.206 TD
+[(18 Febr)8(uary 2020)]TJ
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT8 7 0 R
+/TT9 8 0 R
+/TT10 14 0 R
+/TT12 15 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+17 0 obj
+<<
+/Length 3607
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-3-)Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-21.017 -3.6 TD
+[(T)111(extbook Performance Problems)]TJ
+0 0 0 rg
+0 -2.4 TD
+(Example 1)Tj
+/TT2 1 Tf
+0 -1.56 TD
+(Page 34)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+72.03 665.91 m
+105.87 665.91 l
+S
+BT
+10 0 0 10 72 644.4 Tm
+0.0276 Tw
+[(Our favorite pr)18(ogram r)8(uns in 10 seconds on computer A, which has a 2 GHz clock. W)92(e)-277.6(ar)18(e)18( )-18(trying)]TJ
+0 -1.2 TD
+0.0481 Tw
+[(to help a computer designer build a computer)74(,)-298.1(B)0(,)-298.1(which will r)8(un this pr)18(ogram in 6 seconds.)-548.2(The)]TJ
+T*
+0.0576 Tw
+[(designer has determined that a substantial incr)18(ease in the clock rate is possible, but this incr)18(ease)]TJ
+T*
+0.1528 Tw
+[(will af)18(fect the r)18(est of the CPU design, causing computer B to r)18(equir)18(e)-402.8(1.2 times as many clock)]TJ
+T*
+0 Tw
+[(cycles as computer A for this pr)18(ogram. What clock rate should we tell the designer to tar)18(get?)]TJ
+ET
+72.03 585.87 m
+267.51 585.87 l
+S
+BT
+10 0 0 10 132.82 576.4 Tm
+[(Computer A)-1750(Computer B)]TJ
+ET
+72.03 571.95 m
+267.51 571.95 l
+S
+BT
+10 0 0 10 83.625 562.4 Tm
+2.5675 Tw
+[(TIME 10)-250(seconds )-34(6)-250(seconds)]TJ
+ET
+72.03 557.91 m
+267.51 557.91 l
+S
+BT
+10 0 0 10 83.055 548.4 Tm
+3.468 Tw
+[(FREQ 2)-250(GHz )-1999(?)]TJ
+ET
+72.03 543.87 m
+267.51 543.87 l
+S
+BT
+10 0 0 10 77 534.4 Tm
+3.938 Tw
+[(CYCLES ?)-6917.5(?)]TJ
+ET
+72.03 529.95 m
+267.51 529.95 l
+267.51 585.87 l
+72.03 529.95 m
+72.03 585.87 l
+195.99 529.95 m
+195.99 585.87 l
+122.79 529.95 m
+122.79 585.87 l
+S
+BT
+10 0 0 10 72 504.4 Tm
+0 Tw
+(STEPS)Tj
+ET
+72.03 501.87 m
+100.83 501.87 l
+S
+BT
+10 0 0 10 72 488.8 Tm
+0 g
+(1)Tj
+0 0 0 rg
+2 0 TD
+(Count cycles for A \()Tj
+/TT4 1 Tf
+9.0386 0 TD
+[(2)-250(GHz x 10 seconds = 20 billion cycles)]TJ
+/TT2 1 Tf
+17.4619 0 TD
+(\))Tj
+0 g
+-28.5005 -1.56 TD
+(2)Tj
+0 0 0 rg
+2 0 TD
+0.0575 Tw
+[(Using this info, get the number of cycles for B. W)92(e’r)18(e)-307.5(told that Computer B will r)18(equir)18(e)-307.5(1.2x)]TJ
+0 -1.2 TD
+0 Tw
+[(mor)18(e)-250(clock cycles than computer A.)]TJ
+/TT4 1 Tf
+16.2481 0 TD
+(20 billion x 1.2 = 24 billion cycles)Tj
+/TT2 1 Tf
+15.0464 0 TD
+(.)Tj
+0 g
+-33.2945 -1.56 TD
+(3)Tj
+0 0 0 rg
+2 0 TD
+(Plug in to)Tj
+/TT4 1 Tf
+4.5493 0 TD
+(CYCLES = TIME x FREQ)Tj
+-4.5493 -2.4 TD
+(24 billion cycles = 6 seconds x ? GHz = 6 seconds x 4 GHz)Tj
+/TT2 1 Tf
+26.2871 0 TD
+(\(giga = billion\))Tj
+0 g
+-28.2871 -1.56 TD
+(4)Tj
+0 0 0 rg
+2 0 TD
+[(The designer should aim for a fr)18(equency of)]TJ
+ET
+284.91 413.55 32.4 -10.08 re
+S
+BT
+10 0 0 10 286.88 406 Tm
+[(4)-250(GHz)]TJ
+/TT4 1 Tf
+-21.488 -4.8 TD
+(Example 2)Tj
+ET
+72.03 343.95 m
+179.67 343.95 l
+S
+BT
+/TT2 1 Tf
+10 0 0 10 77 334.4 Tm
+1.5 Tw
+[(Pr)18(ocessor A)-1944.5(B)]TJ
+ET
+72.03 329.91 m
+179.67 329.91 l
+S
+BT
+10 0 0 10 89.945 320.4 Tm
+2.9335 Tw
+[(CPI 2)-1889(2.5)]TJ
+ET
+72.03 315.87 m
+179.67 315.87 l
+179.67 343.95 l
+72.03 315.87 m
+72.03 343.95 l
+152.19 315.87 m
+152.19 343.95 l
+126.87 315.87 m
+126.87 343.95 l
+S
+BT
+10 0 0 10 72 290.4 Tm
+0 Tw
+[(Pr)18(ogram X - dynamic instr)8(uction count of 1 billion)]TJ
+0 -2.4 TD
+[(Pr)18(ogram X r)8(uns on pr)18(ocessor B, how many cycles does it take to execute?)]TJ
+0 -2.383 TD
+(1)Tj
+/TT8 1 Tf
+0.793 0 TD
+0.054 Tw
+(billion instructions)Tj
+/TT12 1 Tf
+8.0129 0 TD
+0 Tw
+(×)Tj
+/TT2 1 Tf
+0.7688 0 TD
+-0.08 Tw
+(2. 5)Tj
+/TT8 1 Tf
+3.1095 0.7 TD
+0 Tw
+(cycles)Tj
+-1.2729 -1.4 TD
+(instructions)Tj
+ET
+185.91 245.19 m
+235.23 245.19 l
+S
+BT
+/TT12 1 Tf
+10 0 0 10 239.25 242.57 Tm
+(=)Tj
+/TT2 1 Tf
+0.8288 0 TD
+-0.08 Tw
+(2. 5)Tj
+/TT8 1 Tf
+1.713 0 TD
+0.063 Tw
+(billion cycles)Tj
+/TT2 1 Tf
+0 g
+-1.4313 -21.857 TD
+0 Tw
+[(18 Febr)8(uary 2020)]TJ
+ET
+endstream
+endobj
+18 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT8 7 0 R
+/TT12 15 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+20 0 obj
+<<
+/Length 1473
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-4-)Tj
+/TT4 1 Tf
+0 0 0 rg
+-21.017 -3.6 TD
+(Example 3)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+72.03 693.87 m
+230.67 693.87 l
+S
+BT
+/TT2 1 Tf
+10 0 0 10 89.36 684.4 Tm
+[(Instr)8(uction T)90(ype )-2736(A)-1750(B)]TJ
+ET
+72.03 679.95 m
+230.67 679.95 l
+S
+BT
+10 0 0 10 77 670.4 Tm
+[(Cycles Per Instr)8(uction )-1639(2)-2069.5(3)]TJ
+ET
+72.03 665.91 m
+230.67 665.91 l
+230.67 693.87 l
+72.03 665.91 m
+72.03 693.87 l
+207.03 665.91 m
+207.03 693.87 l
+181.83 665.91 m
+181.83 693.87 l
+S
+BT
+10 0 0 10 72 648.8 Tm
+[(Pr)18(ogram X:)]TJ
+0 g
+0 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+[(65% instr)8(uctions of type A)]TJ
+0 g
+-2.5 -1.56 TD
+(•)Tj
+0 0 0 rg
+2.5 0 TD
+[(35% instr)8(uctions of type B)]TJ
+0 -2.4 TD
+(Find the CPI:)Tj
+T*
+(\(0.65 * 2\) + \(0.35 * 3\) = 1.3 + 1.05 = 2.35)Tj
+T*
+0.0577 Tw
+[(Alternatively)111(,)-307.7(imagine ther)18(e)-307.7(a)0(r)18(e)18( )-18(100 instr)8(uctions. Then, 65 ar)18(e)-307.8(o)0(f)-307.8(type A, and 35 ar)18(e)-307.8(o)0(f)-307.8(type)]TJ
+0 -1.2 TD
+0.1155 Tw
+[(B. T)90(ype A instr)8(uctions will take 65 * 2, or 130 cycles in total, and type B instr)8(uctions will)]TJ
+T*
+0.1028 Tw
+[(take 35 * 3, or 105 cycles in total. So, for a 100 instr)8(uctions ther)18(e)-352.8(will be 130 + 105, or 235)]TJ
+T*
+0.0308 Tw
+[(cycles used. Per each instr)8(uction, simply divide total cycles by the amount of instr)8(uctions --)]TJ
+T*
+0 Tw
+(235 / 100 = 2.35.)Tj
+0 g
+15.3355 -47.36 TD
+[(18 Febr)8(uary 2020)]TJ
+ET
+endstream
+endobj
+21 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+22 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+23 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+24 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+25 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+26 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+27 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+28 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 701
+/CapHeight 0
+/Descent -298
+/Flags 32
+/FontBBox [-167 -299 1094 827]
+/FontName /Symbol
+/ItalicAngle 0
+/StemV 0
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 371 606 0 840 0 0 333 333 389 606 250 333 250 606 
+500 500 500 500 500 500 500 0 500 0 250 0 606 606 0 444 
+0 778 611 709 774 611 556 763 832 337 0 0 611 946 831 786 
+604 786 668 525 613 778 0 1000 667 667 0 0 0 0 0 0 
+0 500 553 444 611 479 333 556 582 291 234 556 291 883 582 546 
+601 560 395 424 326 603 565 834 516 556 500 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 0 0 606 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 22 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 250 0 
+500 500 500 500 500 0 500 0 0 0 250 0 0 606 0 444 
+0 0 667 722 0 611 556 833 833 389 0 0 611 1000 0 0 
+611 833 722 611 667 0 0 1000 0 667 0 0 0 0 0 0 
+0 500 611 444 611 500 389 0 611 333 0 611 333 889 611 556 
+611 0 389 444 333 611 0 833 500 556 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 23 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [600 0 0 0 0 0 0 0 600 600 600 0 600 0 600 0 
+0 600 600 600 0 0 600 0 600 0 600 0 0 0 600 0 
+0 600 600 600 0 0 0 600 600 600 0 0 0 0 0 0 
+600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 600 0 600 0 0 0 600 0 0 600 600 600 600 
+600 0 600 600 600 600 0 0 0 600 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 24 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 250 333 250 0 
+0 500 500 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 722 611 667 0 611 556 0 778 333 0 667 556 944 778 778 
+611 778 667 556 611 778 0 0 722 667 0 0 0 0 0 0 
+0 444 463 407 500 389 278 500 500 278 0 444 278 778 556 444 
+500 0 389 389 333 556 500 722 500 500 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 25 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 223
+/Widths [605 608 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 26 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [611 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 27 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 61
+/LastChar 215
+/Widths [549 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 549 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Symbol
+/FontDescriptor 28 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+16 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 18 0 R
+/Contents 17 0 R
+>>
+endobj
+19 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 21 0 R
+/Contents 20 0 R
+>>
+endobj
+29 0 obj
+<<
+/S /D
+>>
+endobj
+30 0 obj
+<<
+/Nums [0 29 0 R ]
+>>
+endobj
+10 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 11 0 R 16 0 R 19 0 R]
+/Count 4
+/MediaBox [0 0 612 792]
+>>
+endobj
+31 0 obj
+<<
+/CreationDate (D:20200218193541-05'00')
+/ModDate (D:20200218193541-05'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+32 0 obj
+<<
+/Type /Catalog
+/Pages 10 0 R
+/PageLabels 30 0 R
+>>
+endobj
+xref
+0 33
+0000000000 65535 f 
+0000016722 00000 n 
+0000000016 00000 n 
+0000003322 00000 n 
+0000014003 00000 n 
+0000014562 00000 n 
+0000015015 00000 n 
+0000015430 00000 n 
+0000015889 00000 n 
+0000012493 00000 n 
+0000017123 00000 n 
+0000016803 00000 n 
+0000003461 00000 n 
+0000006914 00000 n 
+0000016066 00000 n 
+0000016239 00000 n 
+0000016887 00000 n 
+0000007069 00000 n 
+0000010729 00000 n 
+0000016971 00000 n 
+0000010860 00000 n 
+0000012386 00000 n 
+0000012633 00000 n 
+0000012833 00000 n 
+0000013038 00000 n 
+0000013229 00000 n 
+0000013432 00000 n 
+0000013632 00000 n 
+0000013837 00000 n 
+0000017055 00000 n 
+0000017083 00000 n 
+0000017226 00000 n 
+0000017355 00000 n 
+trailer
+<<
+/Size 33
+/Root 32 0 R
+/Info 31 0 R
+/ID [<ea5e6fe664a0c1460cffed0521ab0716><ea5e6fe664a0c1460cffed0521ab0716>]
+>>
+startxref
+17425
+%%EOF
