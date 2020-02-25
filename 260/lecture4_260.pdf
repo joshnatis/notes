@@ -1,0 +1,555 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 3132
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0.1 0.5 0.2 rg
+/GS1 gs
+0 Tc
+0 Tw
+[(CS260, Computer Ar)18(chitectur)18(e)-250(I)0(I)]TJ
+/TT4 1 Tf
+12 0 0 12 263.172 657 Tm
+0 0 0 rg
+(Lecture 4)Tj
+/TT2 1 Tf
+10 0 0 10 97 617.4 Tm
+0.1688 Tw
+[(This lectur)18(e)-418.9(was a bit of a side-step fr)18(om the r)18(egular material -- we primarily dis-)]TJ
+0 -1.2 TD
+0 Tw
+(cussed power consumption in the context of computers.)Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
+(Some hardware history)Tj
+/TT2 1 Tf
+0 g
+0 -1.92 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(vacuum tubes)Tj
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(automatic switch for completing/br)18(eaking electr)18(on )]TJ
+/TT5 1 Tf
+22.8673 0 TD
+(ﬂ)Tj
+/TT2 1 Tf
+0.6079 0 TD
+(ow)Tj
+0 g
+-25.9752 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(big enough to change with your hands if the tube burns out)Tj
+-2.5 -2.4 TD
+([diagram])Tj
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(battery)Tj
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1442 Tw
+[(Modern computing started when we found a way to close a cir)18(cuit NOT manually)]TJ
+0 -1.2 TD
+0 Tw
+[(\(able to automate it using electric curr)18(ents\))]TJ
+-2.5 -2.4 TD
+([diagram])Tj
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(transistor)Tj
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(does not deal well with heat \(stops isolating electricy if it gets hot enough\))Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(curr)18(ent on/of)18(f)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(micr)18(o)]TJ
+-2.5 -2.4 TD
+([diagram])Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -3.6 TD
+[(Power Consumption/Power W)74(all)]TJ
+/TT2 1 Tf
+0 g
+0 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(The power wall is a major factor in why we canít make our CPUs faster and faster)Tj
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0148 Tw
+[(Befor)18(e, making CPU faster was a matter of incr)18(easing fr)18(equency \(fastest we got to was)]TJ
+0 -1.2 TD
+0 Tw
+[(5)-250(GHz\))]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.2123 Tw
+[(Pr)18(oblem: each cycle has an electrical cost. Electricity heats up your wir)18(e)-462.3(with the)]TJ
+0 -1.2 TD
+0 Tw
+[(ener)18(gy lost during transfer)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Mor)18(e)-250(GHz --> hotter)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0429 Tw
+[(Remember: the transistor can only get so hot befor)18(e)-292.9(i)0(t)-292.9(starts malfunctioning and leak-)]TJ
+0 -1.2 TD
+0 Tw
+(ing electricity)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0271 Tw
+(Solution 1: Heat sink, a piece of copper/metal that easily transfers heat, placed on top)Tj
+0 -1.2 TD
+0 Tw
+(of the CPU to disseminate as much heat as possible)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Solution 2: cooler \(fans, cooling units, etc\))Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Solution 3: Dr)18(op fr)18(equency when CPU gets too hot \(modern CPUs do this\))]TJ
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0755 Tw
+[(Pr)18(oblem: Cannot cool modern CPUs suf)]TJ
+/TT5 1 Tf
+18.0344 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.0754 Tw
+[(ciently)111(,)-325.4(so, how do we not heat them in the)]TJ
+/TT5 1 Tf
+-18.6393 -1.2 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(rst place?)Tj
+0 g
+12.2305 -4.5 TD
+[(25 Febr)8(uary 2020)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 6 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Length 1406
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+-16.017 -3.6 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Solution 1: Decr)18(ease voltage \(less electricity to the CPU --> less heat\))]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Pr)18(oblem: at too low voltage, transistors leak thr)18(ough thr)18(ough the closed cir)18(cuit)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1393 Tw
+[(Leakage is always ther)18(e, but it becomes too signi)]TJ
+/TT5 1 Tf
+22.5778 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1393 Tw
+(cant at low enough voltage)Tj
+-23.1828 -1.2 TD
+0 Tw
+[(\(har)18(d)-250(t)0(o)-250(tell between 0 and 1\))]TJ
+/TT4 1 Tf
+-5 -2.4 TD
+[(T)111(akeaway:)]TJ
+/TT2 1 Tf
+5.1537 0 TD
+0.0976 Tw
+[(Modern engineers ar)18(e)-347.7(trapped between these two walls: high fr)18(equency \(over)18(-)]TJ
+-5.1537 -1.2 TD
+0 Tw
+(heating\) and low voltage \(leakage\))Tj
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Other walls: memory wall \(RAM is so slow)92(,)-250(doesnít matter how fast CPU is\))]TJ
+/TT7 1 Tf
+-2.5 -2.76 TD
+0.2851 Tw
+(Miscellaneous note: military computers have very bad speci)Tj
+/TT8 1 Tf
+25.9034 0 TD
+0 Tw
+(ﬁ)Tj
+/TT7 1 Tf
+0.5278 0 TD
+0.2851 Tw
+[(cations sometimes \(low fr)18(equency)37(,)-535.1(etc.\))]TJ
+-26.4312 -1.2 TD
+0 Tw
+[(because they want the computers to function in a lar)18(ge range of conditions/temperatur)18(es)]TJ
+/TT2 1 Tf
+0 g
+17.8355 -53.76 TD
+[(25 Febr)8(uary 2020)]TJ
+ET
+endstream
+endobj
+11 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 6 0 R
+/TT7 12 0 R
+/TT8 13 0 R
+>>
+/ExtGState <<
+/GS1 7 0 R
+>>
+>>
+endobj
+7 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+14 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+16 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+17 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+18 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 250 333 250 606 
+500 500 500 500 0 500 500 0 0 0 250 0 0 0 606 444 
+0 778 611 709 774 611 556 763 832 337 0 0 611 946 831 786 
+604 0 668 525 613 778 0 0 0 0 0 333 0 333 0 0 
+0 500 553 444 611 479 333 556 582 291 234 556 291 883 582 546 
+601 560 395 424 326 603 565 834 516 556 500 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 0 0 606 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 14 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 296 
+0 0 0 0 500 0 0 0 0 0 250 0 0 0 0 0 
+0 0 0 722 0 0 0 0 0 0 0 0 611 0 0 0 
+611 0 0 611 667 0 0 1000 0 0 0 0 0 0 0 0 
+0 500 0 444 611 500 0 0 611 333 0 611 333 889 611 556 
+611 0 389 444 333 611 0 833 0 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 15 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 223
+/Widths [605 608 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 16 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 250 0 250 296 
+0 0 0 0 0 0 0 0 0 0 250 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 944 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 444 463 407 500 389 278 500 500 278 0 0 278 778 556 444 
+500 463 389 389 333 556 500 722 0 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 17 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [528 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 18 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Page
+/Parent 8 0 R
+/Resources 11 0 R
+/Contents 10 0 R
+>>
+endobj
+19 0 obj
+<<
+/S /D
+>>
+endobj
+20 0 obj
+<<
+/Nums [0 19 0 R ]
+>>
+endobj
+8 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 9 0 R]
+/Count 2
+/MediaBox [0 0 612 792]
+>>
+endobj
+21 0 obj
+<<
+/CreationDate (D:20200225123210-05'00')
+/ModDate (D:20200225123210-05'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 8 0 R
+/PageLabels 20 0 R
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000007781 00000 n 
+0000000016 00000 n 
+0000003200 00000 n 
+0000006069 00000 n 
+0000006607 00000 n 
+0000007015 00000 n 
+0000004918 00000 n 
+0000008011 00000 n 
+0000007861 00000 n 
+0000003317 00000 n 
+0000004776 00000 n 
+0000007192 00000 n 
+0000007606 00000 n 
+0000005058 00000 n 
+0000005258 00000 n 
+0000005463 00000 n 
+0000005663 00000 n 
+0000005866 00000 n 
+0000007943 00000 n 
+0000007971 00000 n 
+0000008098 00000 n 
+0000008227 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [<e5e41e8563af4f86773bc4b21a3f1606><e5e41e8563af4f86773bc4b21a3f1606>]
+>>
+startxref
+8296
+%%EOF
