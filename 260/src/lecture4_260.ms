@@ -22,7 +22,7 @@ automatic switch for completing/breaking electron flow
 big enough to change with your hands if the tube burns out
 .RE
 
-[diagram]
+[diagram of vaccum tube]
 
 .bullet
 battery
@@ -31,7 +31,7 @@ battery
 Modern computing started when we found a way to close a circuit NOT manually (able to automate it using electric currents)
 .RE
 
-[diagram]
+[diagram of battery]
 
 .bullet
 transistor
@@ -44,7 +44,7 @@ current on/off
 micro
 .RE
 
-[diagram]
+[diagram of transistor]
 
 .green
 .SH
