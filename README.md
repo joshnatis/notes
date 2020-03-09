@@ -10,6 +10,8 @@
          * [Lecture 3](https://github.com/joshnatis/notes/blob/master/260/lecture3_260.pdf)
          * [Lecture 4](https://github.com/joshnatis/notes/blob/master/260/lecture4_260.pdf)
          * [Lecture 5](https://github.com/joshnatis/notes/blob/master/260/lecture5_260.pdf)
+         * [Lecture 6](https://github.com/joshnatis/notes/blob/master/260/lecture6_260.pdf)
+
 
 
 2. __CS265 - Computer Theory I__
