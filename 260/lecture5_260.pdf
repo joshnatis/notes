@@ -1,0 +1,1021 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 4179
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0.1 0.5 0.2 rg
+/GS1 gs
+0 Tc
+0 Tw
+[(CS260, Computer Ar)18(chitectur)18(e)-250(I)0(I)]TJ
+/TT4 1 Tf
+12 0 0 12 263.172 657 Tm
+0 0 0 rg
+(Lecture 5)Tj
+/TT2 1 Tf
+10 0 0 10 72 617.4 Tm
+[(W)92(e)92( )-92(begin our descent into assembly language :D)]TJ
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+0 -2.4 TD
+(Assembly Language Speci)Tj
+/TT5 1 Tf
+11.998 0 TD
+(ﬁ)Tj
+/TT4 1 Tf
+0.6108 0 TD
+(cs)Tj
+/TT2 1 Tf
+0 0 0 rg
+-12.6089 -2.76 TD
+[(The MIPS ar)18(chitectur)18(e)-250(i)0(s)-250(simple, so we will use it)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(compar)18(e)-250(t)0(o)-250(ARM 8 \(smartphones\), x86)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(MIPS is still used in some embedded systems \(e.g. r)18(outers\))]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(RISC type ar)18(chitectur)18(e)-250(\()0(r)18(educed instr)8(uction set computer\))]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+/TT4 1 Tf
+0 0 0 rg
+2.5 0 TD
+(RISC)Tj
+/TT2 1 Tf
+2.6943 0 TD
+[(-)-250(ideology)111(,)-250(smaller set of simpler insitr)8(uctions)]TJ
+0 g
+-5.1943 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(ARM is a newer example of RISC)Tj
+/TT4 1 Tf
+-2.5 -2.76 TD
+(Architecture)Tj
+/TT2 1 Tf
+5.9146 0 TD
+[(-)-250(Speci)]TJ
+/TT6 1 Tf
+2.9229 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+[(es har)18(dwar)18(e)-250(\(speci)]TJ
+/TT6 1 Tf
+8.2345 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+[(cations that must be obeyed\), and CPU instr)8(uction set)]TJ
+0 g
+-15.7819 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Each instr)8(uction set has a corr)18(esponding assembly language)]TJ
+0 g
+-5 -3.12 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(W)92(e)92( )-92(will use a MIPS simulator/emulator to simulate a MIPS computer \(speci)]TJ
+/TT6 1 Tf
+33.5784 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+[(cally)111(,)-250(MARS\))]TJ
+0 g
+-36.6833 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Ar)18(chitectur)18(es ar)18(e)-250(o)0(f)-250(a)-250(certain size -- e.g. 32bit, 64bit, ...)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0435 Tw
+[(This bit value is the natural unit of data used by the pr)18(ocessor)74(,)-293.5(and we call this unit a)]TJ
+/TT4 1 Tf
+0 -1.2 TD
+0 Tw
+(word)Tj
+/TT2 1 Tf
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Every r)18(egister is 1 wor)18(d)-250(wide, all data channels ar)18(e)-250(1)-250(wor)18(d)-250(wide, and so on)]TJ
+0 g
+-5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Assembly language instr)8(uctions ar)18(e)-250(mnemonics for CPU instr)8(uctions \(which ar)18(e)-250(i)0(n)-250(binary\))]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1003 Tw
+[(The exception being pseudoinstr)8(uctions, which donít have a dir)18(ect mapping to CPU)]TJ
+0 -1.2 TD
+0 Tw
+[(instr)8(uctions)]TJ
+0 g
+-5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(All data manipulations happen fr)18(om CPU r)18(egisters)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Small/fast memory)111(,)-250(built into the CPU.)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(As MIPS is 32-bit, ther)18(e)-250(a)0(r)18(e)18( )-18(32)-250(r)18(egisters)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0692 Tw
+[(Registers ar)18(e)-319.3(split into categories: general purpose r)18(egisters \()]TJ
+/TT8 1 Tf
+27.6544 0 TD
+(a0 - a3, s0 - s7,)Tj
+-27.6543 -1.2 TD
+0 Tw
+(...)Tj
+/TT2 1 Tf
+2.446 0 TD
+0.1457 Tw
+[(\), special r)18(egisters \(pr)18(ogram counters, instr)8(uction r)18(egister)74(,)-395.7(etc, which we donít)]TJ
+-2.446 -1.2 TD
+0 Tw
+[(touch dir)18(ectly\))]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.054 Tw
+[(Theyír)18(e)-304.1(all the same fr)18(om the har)18(dwar)18(e)-304.1(point of view)92(,)-304.1(but we make additional agr)18(ee-)]TJ
+0 -1.2 TD
+0 Tw
+[(ments about how we tr)18(eat them \(e.g. t r)18(egisters vs s r)18(egisters\))]TJ
+0 g
+-5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Example instr)8(uction)]TJ
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+96.99 143.31 m
+186.39 143.31 l
+S
+BT
+10 0 0 10 97 130.2 Tm
+0 g
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.25 Tc
+(c=a+b)Tj
+0 g
+-2.5 -1.56 TD
+0 Tc
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(ADD c, a, b)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(ADD $s5, $s0, $s1)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(ADD)Tj
+/TT10 1 Tf
+2.5757 0 TD
+(destination)Tj
+/TT2 1 Tf
+4.75 0 TD
+(,)Tj
+/TT10 1 Tf
+0.5 0 TD
+(num1)Tj
+/TT2 1 Tf
+2.6401 0 TD
+(,)Tj
+/TT10 1 Tf
+0.5 0 TD
+(num2)Tj
+/TT2 1 Tf
+0 g
+2.7097 -5.94 TD
+[(9)-250(Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 6 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT10 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+13 0 obj
+<<
+/Length 5252
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+0 0 0 rg
+-21.017 -3.6 TD
+[([diagram of RAM memory)111(,)-250(separated into blocks, each 1 byte lar)18(ge])]TJ
+0 g
+0 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1013 Tw
+[(W)92(e)92( )-92(can load mor)18(e)-351.3(than 1 byte fr)18(om memory at a time without any compr)18(omise of speed,)]TJ
+0 -1.2 TD
+0 Tw
+[(since our data channels ar)18(e)-250(wide enough to )]TJ
+/TT6 1 Tf
+19.3756 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+[(t multiple bytes \(4 in 32bit ar)18(chitectur)18(es\))]TJ
+0 g
+-22.4805 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Simplest load instr)8(uction \(to load data fr)18(om memory\) is L)74(W)-250(\(load wor)18(d\))]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+-0.074 Tc
+(LW)Tj
+/TT10 1 Tf
+1.7868 0 TD
+0 Tc
+(destination)Tj
+/TT2 1 Tf
+4.75 0 TD
+(,)Tj
+/TT10 1 Tf
+0.5 0 TD
+[(Memory Addr)18(ess)]TJ
+/TT2 1 Tf
+0 g
+-9.5368 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0137 Tw
+(The second )Tj
+/TT6 1 Tf
+5.2867 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.0136 Tw
+[(eld is a pr)18(oblem \(writing the memory addr)18(ess dir)18(ectly\), because memory)]TJ
+-5.8916 -1.2 TD
+0.1182 Tw
+[(addr)18(esses ar)18(e)-368.2(3)0(2)-368.2(bits long \(too much to write out, and it wonít )]TJ
+/TT6 1 Tf
+29.1022 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1183 Tw
+[(t in the instr)8(uction)]TJ
+-29.7072 -1.2 TD
+0 Tw
+(call, which itself is 32 bits long\))Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Solution: indir)18(ect addr)18(essing)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+-0.074 Tc
+(LW)Tj
+/TT10 1 Tf
+1.7868 0 TD
+0 Tc
+($t3)Tj
+/TT2 1 Tf
+1.583 0 TD
+(,)Tj
+/TT10 1 Tf
+0.5 0 TD
+[(Register w/ Memory Addr)18(ess)]TJ
+/TT2 1 Tf
+0 g
+-6.3698 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Put memory addr)18(ess in r)18(egister)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Add of)18(fset to memory addr)18(ess)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+-0.074 Tc
+(LW)Tj
+/TT10 1 Tf
+1.7868 0 TD
+0 Tc
+($t3)Tj
+/TT2 1 Tf
+1.583 0 TD
+(,)Tj
+/TT10 1 Tf
+0.5 0 TD
+(‚\($s7\))Tj
+/TT2 1 Tf
+0 g
+-6.3698 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[("That many bytes fr)18(om the addr)18(ess in $s7")]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Lends itself well to arrays)Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-7.5 -2.4 TD
+(Aliasing)Tj
+/TT2 1 Tf
+0 g
+0 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.106 Tw
+[(When loading data, ther)18(e)-356.1(a)0(r)18(e)18( )-18.1(certain r)8(ules that must be followed \(this is to simplify com-)]TJ
+0 -1.2 TD
+0 Tw
+[(puter ar)18(chitectur)18(e\))]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1475 Tw
+[(4)-397.5(byte lar)18(ge data must begin at addr)18(esses that ar)18(e)-397.6(divisible by 4, 2 byte lar)18(ge data must)]TJ
+0 -1.2 TD
+0 Tw
+[(begin at addr)18(esses that ar)18(e)-250(divisible by 2, and so on.)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(E.g. you canít L)74(W)-250(into addr)18(ess)]TJ
+/TT10 1 Tf
+13.7093 0 TD
+(1)Tj
+/TT2 1 Tf
+0.75 0 TD
+[(,)-250(but you can into addr)18(ess)]TJ
+/TT10 1 Tf
+11.6339 0 TD
+(0)Tj
+/TT2 1 Tf
+0.75 0 TD
+(or)Tj
+/TT10 1 Tf
+1.1909 0 TD
+(4)Tj
+/TT2 1 Tf
+0 g
+-33.034 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0035 Tw
+[(A)-253.6(consequence of this is that sometimes you may have to intr)18(oduce "padding" between data)]TJ
+0 -1.2 TD
+0 Tw
+[(in or)18(der to maintain aliasing r)8(ules)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1065 Tw
+[(meaning, if you load 2 bytes into r)18(egister)]TJ
+/TT10 1 Tf
+19.1626 0 TD
+0 Tw
+(0)Tj
+/TT2 1 Tf
+0.8565 0 TD
+0.1066 Tw
+[(,)-356.5(and then decide to load 4 bytes, youíd)]TJ
+-20.0191 -1.2 TD
+0.1622 Tw
+[(have to start is at r)18(egister)]TJ
+/TT10 1 Tf
+12.3106 0 TD
+0 Tw
+(4.)Tj
+/TT2 1 Tf
+1.4121 0 TD
+0.1621 Tw
+[(This means youír)18(e)]TJ
+/TT6 1 Tf
+8.8526 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1621 Tw
+[(lling addr)18(esses)]TJ
+/TT10 1 Tf
+7.1636 0 TD
+0 Tw
+(0)Tj
+/TT2 1 Tf
+0.9121 0 TD
+(and)Tj
+/TT10 1 Tf
+2.105 0 TD
+(1)Tj
+/TT2 1 Tf
+0.9121 0 TD
+[(,)-412.1(leaving)]TJ
+-34.273 -1.2 TD
+[(addr)18(esses)]TJ
+/TT10 1 Tf
+4.5782 0 TD
+(2)Tj
+/TT2 1 Tf
+0.75 0 TD
+(and)Tj
+/TT10 1 Tf
+1.9429 0 TD
+(3)Tj
+/TT2 1 Tf
+0.75 0 TD
+[(empty)111(,)-250(and then )]TJ
+/TT6 1 Tf
+7.3963 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+[(lling addr)18(esses 4 - 7 \(inclusive\))]TJ
+0 g
+-21.0224 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Aliasing r)8(ules apply to C++ as well)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0923 Tw
+[(The compiler would pr)18(obably optimize your bad decisions away)111(,)-342.4(but for the sake of)]TJ
+0 -1.2 TD
+0 Tw
+(example:)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+/TT8 1 Tf
+0 0 0 rg
+2.5 0 TD
+[(struct s1 {)-5900(struct s2 {)]TJ
+2.5 -2.4 TD
+[(char c;)-8300(int i;)]TJ
+T*
+[(int i;)-8900(short s;)]TJ
+T*
+[(short s; };)-5900(char c; };)]TJ
+/TT2 1 Tf
+0 g
+-5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0241 Tw
+[(Str)8(uct s1 ends up taking 10 bytes \(1 + 3 + 4 + 2\), while str)8(uct s2 takes up 7 bytes \(4 + 2)]TJ
+0 -1.2 TD
+0.1308 Tw
+[(+)-380.8(1\), due to accounting for aliasing. In str)8(uct s1, after)]TJ
+/TT10 1 Tf
+24.9118 0 TD
+(char c)Tj
+/TT2 1 Tf
+2.9091 0 TD
+0.1309 Tw
+[(is declar)18(ed, ther)18(e)-380.9(a)0(r)18(e)18( )-18(3)]TJ
+-27.8208 -1.2 TD
+0.1879 Tw
+[(bytes padded out befor)18(e)]TJ
+/TT10 1 Tf
+11.7448 0 TD
+(int i)Tj
+/TT2 1 Tf
+2.3206 0 TD
+0.1878 Tw
+[(is loaded into memory)111(,)-437.8(because its memory addr)18(ess)]TJ
+-14.0655 -1.2 TD
+0 Tw
+(must be a multiple of 4.)Tj
+0 g
+13.6755 -6 TD
+[(9)-250(Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+14 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 7 0 R
+/TT8 8 0 R
+/TT10 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+16 0 obj
+<<
+/Length 844
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-3-)Tj
+0.1 0.5 0.2 rg
+-18.517 -3.6 TD
+[(Some assembly instr)8(uctions)]TJ
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.074 Tw
+[(L)74(W)74( -)74( load )74(wor)18(d)]TJ
+0 g
+-2.5 -1.56 TD
+0 Tw
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(LH - load half wor)18(d)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(LB - load byte)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(SW - stor)18(e)-250(wor)18(d)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(SW)Tj
+/TT10 1 Tf
+1.7749 0 TD
+[(r)18(egister \(take fr)18(om\))]TJ
+/TT2 1 Tf
+7.9352 0 TD
+(,)Tj
+/TT10 1 Tf
+0.5 0 TD
+[(memory \(stor)18(e)-250(at\))]TJ
+/TT2 1 Tf
+0 g
+-12.71 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(SW)Tj
+/TT10 1 Tf
+1.7749 0 TD
+($t3)Tj
+/TT2 1 Tf
+1.583 0 TD
+(,)Tj
+/TT10 1 Tf
+0.5 0 TD
+(4\($s7\))Tj
+/TT2 1 Tf
+0 g
+9.8176 -57.84 TD
+[(9)-250(Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+17 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT10 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+18 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+19 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+20 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+21 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+22 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+23 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 371 0 500 0 0 0 333 333 0 606 250 333 250 606 
+500 500 500 500 500 500 500 500 500 500 250 0 0 606 0 0 
+0 778 611 709 774 611 0 0 832 337 0 0 611 946 0 0 
+604 0 668 525 613 778 0 1000 0 0 0 333 0 333 0 0 
+0 500 553 444 611 479 333 556 582 291 0 556 291 883 582 546 
+601 560 395 424 326 603 565 834 516 556 500 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 0 0 606 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 18 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 500 0 0 0 0 0 0 0 0 0 0 
+0 778 0 722 0 0 0 0 0 389 0 0 611 0 0 0 
+0 0 722 611 0 0 0 0 0 0 0 0 0 0 0 0 
+0 500 611 444 611 500 0 556 611 333 0 0 333 889 611 556 
+611 0 389 444 333 611 0 833 0 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 19 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [611 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 20 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [605 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 21 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 125
+/Widths [600 0 0 0 0 0 0 0 0 0 0 0 600 600 600 0 
+600 600 600 600 0 0 0 600 0 0 0 600 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 600 0 600 0 0 0 0 600 600 0 0 0 0 600 600 
+0 0 600 600 600 600 0 0 0 0 0 600 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 22 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 226
+/Widths [250 0 0 0 500 0 0 0 333 333 0 0 0 0 250 296 
+500 500 500 500 500 0 0 500 0 0 0 0 0 0 0 0 
+0 722 0 0 0 0 0 0 0 0 0 0 0 944 0 0 
+0 0 667 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 444 0 407 500 389 278 500 500 278 0 444 0 778 556 444 
+0 0 389 389 333 556 0 722 0 500 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 23 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 14 0 R
+/Contents 13 0 R
+>>
+endobj
+15 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 17 0 R
+/Contents 16 0 R
+>>
+endobj
+24 0 obj
+<<
+/S /D
+>>
+endobj
+25 0 obj
+<<
+/Nums [0 24 0 R ]
+>>
+endobj
+11 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 12 0 R 15 0 R]
+/Count 3
+/MediaBox [0 0 612 792]
+>>
+endobj
+26 0 obj
+<<
+/CreationDate (D:20200309122335-04'00')
+/ModDate (D:20200309122335-04'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+27 0 obj
+<<
+/Type /Catalog
+/Pages 11 0 R
+/PageLabels 25 0 R
+>>
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000014524 00000 n 
+0000000016 00000 n 
+0000004247 00000 n 
+0000012196 00000 n 
+0000012739 00000 n 
+0000013144 00000 n 
+0000013316 00000 n 
+0000013489 00000 n 
+0000013886 00000 n 
+0000010851 00000 n 
+0000014841 00000 n 
+0000014605 00000 n 
+0000004399 00000 n 
+0000009704 00000 n 
+0000014689 00000 n 
+0000009846 00000 n 
+0000010742 00000 n 
+0000010992 00000 n 
+0000011192 00000 n 
+0000011397 00000 n 
+0000011602 00000 n 
+0000011802 00000 n 
+0000011993 00000 n 
+0000014773 00000 n 
+0000014801 00000 n 
+0000014937 00000 n 
+0000015066 00000 n 
+trailer
+<<
+/Size 28
+/Root 27 0 R
+/Info 26 0 R
+/ID [<6a0319cea36d17c86a20b63f557a72a9><6a0319cea36d17c86a20b63f557a72a9>]
+>>
+startxref
+15136
+%%EOF
