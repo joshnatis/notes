@@ -1,0 +1,688 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 3841
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+[(CS260, Computer Ar)18(chitectur)18(e)-250(I)0(I)]TJ
+/TT4 1 Tf
+12 0 0 12 263.172 657 Tm
+(Lecture 6)Tj
+/TT2 1 Tf
+10 0 0 10 97 617.4 Tm
+0.0949 Tw
+[(This lectur)18(e)-344.9(was primarily about signed numbers, speci)]TJ
+/TT5 1 Tf
+25.1629 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.0949 Tw
+[(cally their r)18(epr)18(esentation in)]TJ
+-25.7679 -1.2 TD
+0 Tw
+[(binary)111(,)-250(how to stor)18(e/perform other operations on them, and so on.)]TJ
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -3.6 TD
+(Immediates)Tj
+/TT2 1 Tf
+0 g
+0 -3.12 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Some values known ahead of time \(literals\), can be loaded in earlier)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(W)92(e)92( )-92(call these values immediates)]TJ
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+187.59 520.11 m
+239.31 520.11 l
+S
+BT
+10 0 0 10 72 507 Tm
+0 g
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1017 Tw
+[(Immediates ar)18(e)-351.7(signed 16-bit numbers \()]TJ
+/TT7 1 Tf
+18.3769 0 TD
+0 Tw
+(short)Tj
+/TT2 1 Tf
+2.0552 0 TD
+0.1017 Tw
+[(s)-351.7(\))0(,)-351.7(cause thatís what )]TJ
+/TT5 1 Tf
+9.8933 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1017 Tw
+[(ts into I-T)90(ype instr)8(uc-)]TJ
+-30.9302 -1.2 TD
+0 Tw
+(tions \(seen later\))Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(ADDI)Tj
+/TT7 1 Tf
+2.9126 0 TD
+[($tar)18(get)]TJ
+/TT2 1 Tf
+2.8702 0 TD
+(,)Tj
+/TT7 1 Tf
+0.5 0 TD
+[($r)18(egister)]TJ
+/TT2 1 Tf
+3.5386 0 TD
+(,)Tj
+/TT7 1 Tf
+0.5 0 TD
+(Immediate value)Tj
+/TT2 1 Tf
+0 g
+-10.3214 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0002 Tw
+(Immediate can be in whichever number system, as long as its supported by the assem-)Tj
+0 -1.2 TD
+0 Tw
+[(bly language \(e.g. hexadecimal, decimal, binary)111(,)-250(etc\))]TJ
+0 g
+-5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Since immediates ar)18(e)-250(signed values, we donít need SUBI)]TJ
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -3.6 TD
+(Storing signed numbers)Tj
+/TT2 1 Tf
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Numbers ar)18(e)-250(stor)18(ed in memory in binary form)]TJ
+0 -2.4 TD
+(RAM)Tj
+ET
+96.99 350.07 m
+192.75 350.07 l
+S
+BT
+10 0 0 10 102 340.6 Tm
+[(Addr)74(.)-2825(Data)]TJ
+ET
+96.99 336.15 m
+192.75 336.15 l
+S
+BT
+10 0 0 10 112.355 326.6 Tm
+[(0)-2785.5(0000 0000)]TJ
+ET
+96.99 322.11 m
+192.75 322.11 l
+S
+BT
+10 0 0 10 112.355 312.6 Tm
+[(1)-2785.5(0000 0000)]TJ
+ET
+96.99 308.07 m
+192.75 308.07 l
+S
+BT
+10 0 0 10 112.355 298.6 Tm
+[(2)-2785.5(0000 0000)]TJ
+ET
+96.99 294.15 m
+192.75 294.15 l
+S
+BT
+10 0 0 10 112.355 284.6 Tm
+[(3)-2868(0000 )]TJ
+5.618 0 TD
+-0.055 Tc
+(1111)Tj
+ET
+96.99 280.11 m
+192.75 280.11 l
+192.75 350.07 l
+96.99 280.11 m
+96.99 350.07 l
+135.27 280.11 m
+135.27 350.07 l
+S
+BT
+/TT7 1 Tf
+10 0 0 10 97 254.5999 Tm
+0 Tc
+(Each cell holds 1 byte, together cells 0 - 3 hold 1 word)Tj
+/TT2 1 Tf
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Big-endian vs Little-endian)Tj
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1175 Tw
+[(Do we stor)18(e)-367.5(the "most signi)]TJ
+/TT5 1 Tf
+12.7035 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1176 Tw
+(cant" \(big end\) bits )Tj
+/TT5 1 Tf
+9.0261 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1176 Tw
+(rst, or the "least signi)Tj
+/TT5 1 Tf
+9.7287 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1176 Tw
+(cant" \(little)Tj
+-33.2732 -1.2 TD
+0 Tw
+(end\) )Tj
+/TT5 1 Tf
+2.2549 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(rst?)Tj
+0 g
+-5.3599 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[("First" in this case means in the earlier memory addr)18(esses)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(MIPS is a big endian ar)18(chitectur)18(e, so the earlier bits ar)18(e)-250(the most signi)]TJ
+/TT5 1 Tf
+30.6472 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(cant values)Tj
+0 g
+-33.7521 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0621 Tw
+[(As such, the diagram above r)18(epr)18(esents the decimal number 15 \(if it was little endian,)]TJ
+0 -1.2 TD
+0 Tw
+[(that diagram would r)18(epr)18(esent decimal number 251658240\))]TJ
+0 g
+13.6755 -11.66 TD
+[(9)-250(Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 6 0 R
+/TT7 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+>>
+endobj
+11 0 obj
+<<
+/Length 3133
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+-21.017 -3.6 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(How do we stor)18(e)-250(negatives?)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0142 Tw
+[(One idea is to use the leftmost bit as a "sign bit", 1 to r)18(epr)18(esent negative, 0 to r)18(epr)18(esent)]TJ
+0 -1.2 TD
+0 Tw
+[(negative \(or vice versa, doesnít matter)74(,)-250(a)0(s)-250(long as you follow the pr)18(otocol\))]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.055 Tw
+(The issue with this is that it complicates arithmetic operations -- we canít simply add)Tj
+0 -1.2 TD
+0.0891 Tw
+[(two binary numbers which ar)18(e)-339.2(r)18(epr)18(esented using this technique, cause weíd have to)]TJ
+T*
+0 Tw
+(account for the signed bits with some algorithm.)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1532 Tw
+[(Y)92(o)0(u)-403.2(want basic operations to be as fast as possible, which means )]TJ
+/TT5 1 Tf
+30.5008 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1532 Tw
+(nding a way to)Tj
+-31.1057 -1.2 TD
+0 Tw
+[(stor)18(e)-250(binary values that doesnít involve extra steps)]TJ
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Solution: T)90(woís Complement)]TJ
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+164.07 583.11 m
+250.47 583.11 l
+S
+BT
+10 0 0 10 122 570 Tm
+0 g
+(ï)Tj
+/TT4 1 Tf
+0 0 0 rg
+2.5 0 TD
+0.0153 Tw
+[(T)111(o)111( )-111(get the twoí)55(s)-265.4(complement negative notation of an integer)55(,)-265.4(you write out the)]TJ
+0 -1.2 TD
+0 Tw
+[(number in binary)92(.)-250(Y)74(ou then invert the digits, and add one to the result.)]TJ
+/TT2 1 Tf
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(All positive numbers start with 0, all negative numbers start with 1)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Arithmetic operations ar)18(e)-250(unaf)18(fected \(still work as expected\))]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(E.g. 3 + -3 will make 10000 but the 1 over)Tj
+/TT5 1 Tf
+18.0854 0 TD
+(ﬂ)Tj
+/TT2 1 Tf
+0.6079 0 TD
+[(ows and youír)18(e)-250(left with 0)]TJ
+0 g
+-23.6933 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Slight caveat: signed numbers shift our range of r)18(epr)18(esentable values down)]TJ
+0 g
+-7.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Loading bytes, how does MIPS deal with signed numbers?)Tj
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(L)74(W)74( )-74(-)74( )-74(we)-250(load the entir)18(e)-250(3)0(2)-250(bits, so we simply copy over the bits into the tar)18(get r)18(egister)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(LH - we load 2 bytes into the bottom, but what about the top 2 bytes?)Tj
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0488 Tw
+(LH automatically makes them all 1s or 0s depending on the sign of the leftmost)Tj
+0 -1.2 TD
+0 Tw
+(bit of the bytes you loaded)Tj
+0 g
+-5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1626 Tw
+[(LHU \(load half wor)18(d)-412.6(unsigned\) - data in the 2 bytes ar)18(e)-412.7(not in twoís complement)]TJ
+0 -1.2 TD
+0 Tw
+(notation -- automatically )Tj
+/TT5 1 Tf
+11.1724 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+[(lls r)18(emaining 2 bytes with 0s)]TJ
+0 g
+-14.2773 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(The same applies to LB and LBU \(load byte unsigned\))Tj
+0 g
+13.6755 -34.2 TD
+[(9)-250(Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+12 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 6 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+>>
+endobj
+8 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+14 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+16 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 371 0 0 0 0 0 333 333 0 606 250 333 250 606 
+500 500 500 500 500 500 500 0 500 500 250 0 0 0 0 444 
+0 778 611 709 774 611 556 0 832 337 0 0 611 946 831 786 
+604 0 668 525 613 778 0 1000 0 667 0 0 0 0 0 0 
+0 500 553 444 611 479 333 556 582 291 0 556 291 883 582 546 
+601 560 395 424 326 603 565 834 516 556 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 0 0 606 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 13 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 250 0 250 0 
+0 0 0 0 0 0 500 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 389 0 0 611 0 0 0 
+0 0 0 611 667 0 0 0 0 667 0 0 0 0 0 0 
+0 500 611 444 611 500 389 556 611 333 0 0 333 889 611 556 
+611 0 389 444 333 611 556 833 0 556 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 14 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 223
+/Widths [605 608 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 15 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [250 0 0 0 500 0 0 0 0 0 0 0 250 333 0 0 
+500 500 0 500 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 611 0 0 0 333 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 444 463 407 500 389 0 500 500 278 0 0 278 778 0 444 
+0 0 389 389 333 556 500 722 0 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 16 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 12 0 R
+/Contents 11 0 R
+>>
+endobj
+17 0 obj
+<<
+/S /D
+>>
+endobj
+18 0 obj
+<<
+/Nums [0 17 0 R ]
+>>
+endobj
+9 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 10 0 R]
+/Count 2
+/MediaBox [0 0 612 792]
+>>
+endobj
+19 0 obj
+<<
+/CreationDate (D:20200309135455-04'00')
+/ModDate (D:20200309135455-04'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 9 0 R
+/PageLabels 18 0 R
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000009879 00000 n 
+0000000016 00000 n 
+0000003909 00000 n 
+0000008289 00000 n 
+0000008830 00000 n 
+0000009295 00000 n 
+0000009472 00000 n 
+0000007341 00000 n 
+0000010110 00000 n 
+0000009959 00000 n 
+0000004037 00000 n 
+0000007223 00000 n 
+0000007481 00000 n 
+0000007681 00000 n 
+0000007886 00000 n 
+0000008086 00000 n 
+0000010042 00000 n 
+0000010070 00000 n 
+0000010198 00000 n 
+0000010327 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [<bf31b53e09159877acaf02a8ad223dab><bf31b53e09159877acaf02a8ad223dab>]
+>>
+startxref
+10396
+%%EOF
