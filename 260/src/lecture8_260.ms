@@ -214,3 +214,29 @@ We know what happens when we AND a binary string with all 1s and 0s -- what happ
 
 .bullet
 We can use these masking tricks to manipulate certain portions of bits (either by inverting with XOR, setting with OR, or clearing with AND)
+
+.PS
+line;line;line;line;line;line;line;
+.PE
+.green
+.SH
+Motivating Problem (from Leetcode :O)
+.neerg
+
+.CW "vector<int> nums; // {1, 2, 3, 4, 1, 2, 4}"
+
+.I "// stores pairs (1 and 1, 2 and 2, etc), and one unique number"
+
+.I "// find this unique number"
+
+.I "// solutions: brute force (loop through, O(n\*{2\*})), fancy unordered map O(n) and linear space, elegant solution XOR O(n) and constant space"
+
+.CW "int result = 0;"
+
+.CW "for(int num: nums)"
+
+.CW "	results = result ^ num; //xor"
+
+.CW "return result;"
+
+.I "This works because a number XORed with itself results in 0, and 0 XORed with a number results in that number. All of the duplicates cancel each other out, while the unique number ends up getting XORed with 0 to get the final result. Also important is that XOR is commutative, so even though the duplicate pairs are dispersed throughout the array, they'll still cancel each other out, cause order doesn't matter."
