@@ -8,7 +8,7 @@ fi
 file="$1"
 name=${file%.*} #remove file extension
 
-groff -e -t -ms "$file" > temp.ps
+groff -e -t -p -ms "$file" > temp.ps
 cupsfilter temp.ps > "$name.pdf"
 
 rm temp.ps
