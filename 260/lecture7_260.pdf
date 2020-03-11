@@ -1,0 +1,720 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 3739
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0.1 0.5 0.2 rg
+/GS1 gs
+0 Tc
+0 Tw
+[(CS260, Computer Ar)18(chitectur)18(e)-250(I)0(I)]TJ
+/TT4 1 Tf
+12 0 0 12 263.172 657 Tm
+0 0 0 rg
+(Lecture 7)Tj
+/TT2 1 Tf
+10 0 0 10 97 617.4 Tm
+0.089 Tw
+[(On the str)8(uctur)18(e)-339.1(o)0(f)-339.1(instr)8(uctions -- how the 32 bits per each instr)8(uction ar)18(e)-339(portioned)]TJ
+0 -1.2 TD
+0.1394 Tw
+[(into sections, and what each of those sections means. On dif)18(fer)18(ent types of instr)8(uc-)]TJ
+T*
+0 Tw
+(tions -- R-type, I-type, and J-type.)Tj
+0 g
+-2.5 -3.12 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Each instr)8(uction in MIPS is 32 bits long)]TJ
+/TT6 1 Tf
+4.8 -2.4 TD
+(32)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+96.99 527.67 m
+196.95 527.67 l
+96.99 513.75 m
+196.95 513.75 l
+196.95 527.67 l
+96.99 513.75 m
+96.99 527.67 l
+S
+BT
+/TT8 1 Tf
+10 0 0 10 97 488.2 Tm
+(Below is one type of instruction, called an R-type instruction)Tj
+/TT6 1 Tf
+1.8 -2.4 TD
+3 Tc
+(655556)Tj
+ET
+96.99 453.75 m
+333.75 453.75 l
+S
+BT
+/TT2 1 Tf
+10 0 0 10 102 444.2 Tm
+0 Tc
+1.25 Tw
+[(opcode rs)-2500(rt )-1000(r)18(d)-2500(shamt function)]TJ
+ET
+96.99 439.71 m
+333.75 439.71 l
+333.75 453.75 l
+96.99 439.71 m
+96.99 453.75 l
+284.19 439.71 m
+284.19 453.75 l
+242.07 439.71 m
+242.07 453.75 l
+207.15 439.71 m
+207.15 453.75 l
+174.99 439.71 m
+174.99 453.75 l
+141.75 439.71 m
+141.75 453.75 l
+S
+BT
+/TT8 1 Tf
+10 0 0 10 97 414.2 Tm
+0 Tw
+[(An R-type instruction is so called because the data values used ar)18(e)-250(located in r)18(egisters)]TJ
+T*
+[(rd - r)18(egister destination, rs - r)18(egister sour)18(ce, rt - r)18(egister tar)18(get)]TJ
+/TT2 1 Tf
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0949 Tw
+[(In memory)111(,)-345(the bits ar)18(e)-345(still stor)18(ed in 8 bit blocks, but this is how we or)18(ganize the bits by)]TJ
+0 -1.2 TD
+0 Tw
+(their semantic meanings)Tj
+0 g
+-2.5 -1.92 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(6)-250(leftmost bits ar)18(e)-250(the)]TJ
+/TT4 1 Tf
+9.6954 0 TD
+(opcode)Tj
+/TT2 1 Tf
+0 g
+-9.6953 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(The opcode tells us what operation will be performed)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(e.g. opcode for addition is)Tj
+/TT8 1 Tf
+11.7583 0 TD
+(0)Tj
+/TT2 1 Tf
+0 g
+-16.7583 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0698 Tw
+[(W)92(e)92( )-92(also have a section at the fr)18(ont specifying mor)18(e)-319.8(information called the)]TJ
+/TT4 1 Tf
+33.5201 0 TD
+0 Tw
+(function)Tj
+/TT9 1 Tf
+4.2075 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.0698 Tw
+(eld --)Tj
+-38.3326 -1.2 TD
+0.095 Tw
+[(ther)18(e)-345.1(a)0(r)18(e)18( )-18.1(many instr)8(uctions that shar)18(e)-345.1(the same opcode, but they ar)18(e)-345(dif)18(fer)18(entiated by the)]TJ
+T*
+0 Tw
+(bits in the)Tj
+/TT8 1 Tf
+4.6045 0 TD
+(function)Tj
+/TT9 1 Tf
+3.6582 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(eld.)Tj
+0 g
+-8.8677 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(e.g. ADD, SUB, MU)Tj
+8.748 0 TD
+-0.074 Tc
+(LT, )Tj
+1.5756 0 TD
+0 Tc
+[(all have an opcode of 0, but dif)18(fer)18(ent function )]TJ
+/TT9 1 Tf
+20.3781 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(elds)Tj
+0 g
+-36.3067 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Example R-type instr)8(uction:)]TJ
+/TT6 1 Tf
+0 -2.4 TD
+(ADD $s0, $s0, $t0)Tj
+2.4 -2.4 TD
+1.8 Tw
+[(rd rs)-1800(rt)]TJ
+/TT2 1 Tf
+0 g
+-4.9 -2.76 TD
+0 Tw
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0578 Tw
+[(When assembling, r)18(egister names ar)18(e)-307.8(converted to their corr)18(esponding "number" \(each has)]TJ
+0 -1.2 TD
+0.1583 Tw
+(one, as speci)Tj
+/TT9 1 Tf
+5.8361 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1582 Tw
+[(ed by the ar)18(chitectur)18(e)-408.3(-)0(-)-408.3(e.g. $s0 - $s8 ar)18(e)-408.3(1)0(6)-408.3(-)-408.3(23\), and these numbers ar)18(e)]TJ
+-6.4411 -1.2 TD
+0 Tw
+[(stor)18(ed as bits in the)]TJ
+/TT8 1 Tf
+8.7911 0 TD
+(rd/rs/rt)Tj
+/TT9 1 Tf
+3.2314 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+(elds.)Tj
+0 g
+3.298 -8.18 TD
+[(10 Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT9 8 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 3817
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+-21.017 -3.6 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Y)92(o)0(u)-250(can also stor)18(e)-250(each byte as hexadecimal, for convenience.)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.2449 Tw
+(Hexadecimal is commonplace because itís very simple to convert between it and)Tj
+0 -1.2 TD
+0.0156 Tw
+[(binary -- simply gr)18(oup each 4 bits together and convert them to a hexadecimal digit \(0)]TJ
+T*
+0 Tw
+[(-)-250(F\), and voila.)]TJ
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+174.51 650.43 m
+426.51 650.43 l
+S
+BT
+/TT8 1 Tf
+10 0 0 10 97 627.4 Tm
+(Below is another type of instruction, called an I-type instruction)Tj
+/TT6 1 Tf
+1.8 -2.4 TD
+3 Tc
+-0.6 Tw
+[(655 1)3000(6)]TJ
+ET
+96.99 592.95 m
+309.63 592.95 l
+S
+BT
+/TT2 1 Tf
+10 0 0 10 102 583.4 Tm
+0 Tc
+1.25 Tw
+[(opcode rs)-2500(rt )-3250(immediate)]TJ
+ET
+96.99 578.91 m
+309.63 578.91 l
+309.63 592.95 l
+96.99 578.91 m
+96.99 592.95 l
+207.15 578.91 m
+207.15 592.95 l
+174.99 578.91 m
+174.99 592.95 l
+141.75 578.91 m
+141.75 592.95 l
+S
+BT
+/TT8 1 Tf
+10 0 0 10 97 553.4 Tm
+0 Tw
+[(An I-type instruction is so called because the data values used ar)18(e)-250(immediate values)]TJ
+/TT2 1 Tf
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0064 Tw
+[(Immediate - a piece of data that is stor)18(ed as part of the instr)8(uction itself instead of being in a)]TJ
+0 -1.2 TD
+0.0367 Tw
+[(memory location or a r)18(egister)74(.)-286.7(Immediate values ar)18(e)-286.7(typically used in instr)8(uctions that load)]TJ
+T*
+0 Tw
+[(a)-250(value or performs an arithmetic or a logical operation on a constant)]TJ
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(An example I-type instr)8(uction is as follows:)]TJ
+/TT6 1 Tf
+0 -2.4 TD
+(ADDI $s3, $zero, 4)Tj
+/TT2 1 Tf
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0396 Tw
+[(Note that the immediate value can be written in decimal, hexadecimal, binary)111(,)-289.6(o)0(r)-289.6(any other)]TJ
+0 -1.2 TD
+0 Tw
+(format the assembler accepts \(they will all be converted to binary upon assembling\))Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Also note that the immediate value is stor)18(ed in twoís complement notation)]TJ
+/TT8 1 Tf
+0 -2.4 TD
+[(Another slightly differ)18(ent-looking I-type intruction is:)]TJ
+/TT6 1 Tf
+T*
+(LW $s3, 4\($s7\))Tj
+/TT8 1 Tf
+T*
+[(í4í her)18(e)-250(i)0(s)-250(a)-250(16-bit signed integer offset)]TJ
+T*
+0.1116 Tw
+[(A)-361.7(MIPS instruction is 32 bits \(always\). A MIPS memory addr)18(ess is 32 bits \(always\). How can a)]TJ
+0 -1.2 TD
+0 Tw
+[(load or stor)18(e)-250(instruction specify an addr)18(ess that is the same size as itself?)]TJ
+0 -2.4 TD
+0.0279 Tw
+[(An instruction that r)18(efers to memory uses a base r)18(egister and an offset. The base r)18(egister is a general)]TJ
+0 -1.2 TD
+0.0535 Tw
+[(purpose r)18(egister that contains a 32-bit addr)18(ess. The offset is a 16-bit signed integer contained in the)]TJ
+T*
+0.1539 Tw
+[(instruction. The sum of the addr)18(ess in the base r)18(egister with the \(sign-extended\) offset forms the)]TJ
+T*
+0 Tw
+[(memory addr)18(ess.)]TJ
+ET
+174.51 196.95 m
+426.51 196.95 l
+S
+BT
+10 0 0 10 97 174 Tm
+(The last type of instruction is called an J-type \(jump\) instruction)Tj
+/TT6 1 Tf
+1.8 -2.4 TD
+6.6 Tc
+[(62)6600(6)]TJ
+ET
+96.99 139.47 m
+243.51 139.47 l
+S
+BT
+/TT2 1 Tf
+10 0 0 10 102 130 Tm
+0 Tc
+3.75 Tw
+[(opcode addr)18(ess)]TJ
+ET
+96.99 125.55 m
+243.51 125.55 l
+243.51 139.47 l
+96.99 125.55 m
+96.99 139.47 l
+141.75 125.55 m
+141.75 139.47 l
+S
+BT
+10 0 0 10 72 96.4 Tm
+0 g
+0 Tw
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0277 Tw
+[(Examples of J-type instr)8(uctions include)]TJ
+/TT8 1 Tf
+17.7271 0 TD
+0 Tw
+(J)Tj
+/TT2 1 Tf
+0.6106 0 TD
+0.0276 Tw
+(\(which is used in loops\) and)Tj
+/TT8 1 Tf
+12.8697 0 TD
+0 Tw
+(JAL)Tj
+/TT2 1 Tf
+1.8889 0 TD
+0.0276 Tw
+(\(which is used to)Tj
+-33.0963 -1.2 TD
+0 Tw
+(implement functions\))Tj
+0 g
+15.9255 -6.04 TD
+[(10 Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+14 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+16 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+17 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+18 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 371 0 500 0 0 0 333 333 0 0 250 333 250 0 
+500 500 500 500 500 0 500 0 500 0 250 0 0 0 0 0 
+0 778 611 709 774 611 556 0 832 337 333 0 611 946 831 786 
+604 0 668 525 613 778 0 1000 0 667 0 0 0 0 0 0 
+0 500 553 444 611 479 333 556 582 291 0 556 291 883 582 546 
+601 0 395 424 326 603 565 834 516 556 500 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 0 0 606 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 14 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 117
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 500 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 611 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 444 611 500 389 0 0 333 0 0 0 0 611 556 
+611 0 389 0 333 611 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 15 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [600 0 0 0 600 0 0 0 600 600 0 0 600 0 0 0 
+600 600 600 600 600 600 600 600 0 0 0 0 0 0 0 0 
+0 600 0 0 600 0 0 0 0 600 0 0 600 0 0 0 
+0 0 0 0 0 0 0 600 0 0 0 0 0 0 0 0 
+0 0 0 0 600 600 0 0 0 0 0 0 0 0 0 600 
+0 0 600 600 600 0 0 0 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 16 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 250 333 250 296 
+500 500 500 500 500 0 500 0 0 0 250 0 0 0 0 500 
+0 722 611 0 0 0 0 0 778 333 333 0 556 944 0 0 
+611 0 667 556 611 0 0 0 0 0 0 0 0 0 0 0 
+0 444 463 407 500 389 278 500 500 278 278 444 278 778 556 444 
+500 0 389 389 333 556 500 722 500 500 444 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 17 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [605 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 18 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+19 0 obj
+<<
+/S /D
+>>
+endobj
+20 0 obj
+<<
+/Nums [0 19 0 R ]
+>>
+endobj
+10 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 11 0 R]
+/Count 2
+/MediaBox [0 0 612 792]
+>>
+endobj
+21 0 obj
+<<
+/CreationDate (D:20200310235438-04'00')
+/ModDate (D:20200310235438-04'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 10 0 R
+/PageLabels 20 0 R
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000011058 00000 n 
+0000000016 00000 n 
+0000003807 00000 n 
+0000009073 00000 n 
+0000009608 00000 n 
+0000009979 00000 n 
+0000010376 00000 n 
+0000010885 00000 n 
+0000007934 00000 n 
+0000011291 00000 n 
+0000011139 00000 n 
+0000003946 00000 n 
+0000007816 00000 n 
+0000008074 00000 n 
+0000008274 00000 n 
+0000008479 00000 n 
+0000008670 00000 n 
+0000008873 00000 n 
+0000011223 00000 n 
+0000011251 00000 n 
+0000011380 00000 n 
+0000011509 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [<bb060a042b03397da3ef80e02755a053><bb060a042b03397da3ef80e02755a053>]
+>>
+startxref
+11579
+%%EOF
