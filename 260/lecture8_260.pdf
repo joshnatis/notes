@@ -659,7 +659,7 @@ endobj
 endobj
 20 0 obj
 <<
-/Length 1187
+/Length 2715
 >>
 stream
 BT
@@ -717,8 +717,78 @@ BT
 0 -1.2 TD
 0 Tw
 (with XOR, setting with OR, or clearing with AND\))Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+174.51 488.43 m
+426.51 488.43 l
+S
+BT
+/TT4 1 Tf
+10 0 0 10 72 453.4 Tm
+0.1 0.5 0.2 rg
+(Motivating Problem \(from Leetcode :O\))Tj
+/TT6 1 Tf
+0 0 0 rg
+0 -2.4 TD
+(vector<int> nums; // {1, 2, 3, 4, 1, 2, 4})Tj
+/TT8 1 Tf
+T*
+[(// stor)18(es pairs \(1 and 1, 2 and 2, etc\), and one unique number)]TJ
+T*
+(// )Tj
+/TT10 1 Tf
+0.8418 0 TD
+(Þ)Tj
+/TT8 1 Tf
+0.5278 0 TD
+(nd this unique number)Tj
+-1.3696 -2.4 TD
+0.0103 Tw
+[(// solutions: brute for)18(ce \(loop thr)18(ough, O\(n)]TJ
+7 0 0 7 244.0988 361.5 Tm
+0 Tw
+(2)Tj
+10 0 0 10 247.5988 357.4 Tm
+0.0103 Tw
+[(\)\), fancy unorder)18(ed map O\(n\) and linear space, elegant solution)]TJ
+-17.5599 -1.2 TD
+0 Tw
+(XOR O\(n\) and constant space)Tj
+/TT6 1 Tf
+0 -2.4 TD
+(int result = 0;)Tj
+T*
+(for\(int num: nums\))Tj
+2.5 -2.4 TD
+(results = result ˆ num; //xor)Tj
+-2.5 -2.4 TD
+(return result;)Tj
+/TT8 1 Tf
+T*
+0.0492 Tw
+[(This works because a number XORed with itself r)18(esults in 0, and 0 XORed with a number r)18(esults in that)]TJ
+0 -1.2 TD
+0.0295 Tw
+[(number)74(.)-279.5(All of the duplicates cancel each other out, while the unique number ends up getting XORed with)]TJ
+T*
+0.0136 Tw
+[(0)-263.6(t)0(o)-263.6(get the )]TJ
+/TT10 1 Tf
+4.7756 0 TD
+0 Tw
+(Þ)Tj
+/TT8 1 Tf
+0.5278 0 TD
+0.0135 Tw
+[(nal r)18(esult. Also important is that XOR is commutative, so even though the duplicate pairs ar)18(e)]TJ
+-5.3034 -1.2 TD
+0 Tw
+[(dispersed thr)18(oughout the array)37(,)-250(they’ll still cancel each other out, cause order doesn’)37(t)-250(matter)74(.)]TJ
+/TT2 1 Tf
 0 g
-15.953 -49.44 TD
+18.453 -16.54 TD
 0.055 Tw
 [(1)55(1)55( Mar)18(ch )55(2020)]TJ
 ET
@@ -729,7 +799,10 @@ endobj
 /ProcSet [/PDF /Text ]
 /Font <<
 /TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
 /TT8 7 0 R
+/TT10 14 0 R
 >>
 /ExtGState <<
 /GS1 9 0 R
@@ -880,12 +953,12 @@ endobj
 /Subtype /TrueType
 /FirstChar 32
 /LastChar 121
-/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 296 
-500 500 0 0 0 0 0 0 500 0 0 0 0 0 0 0 
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 0 0 0 296 
+500 500 0 0 0 0 0 0 500 0 250 0 0 0 0 0 
 0 778 667 722 833 0 0 0 0 389 0 0 611 1000 833 833 
 611 0 722 611 0 0 0 0 667 0 0 0 0 0 0 0 
-0 500 0 444 0 500 389 556 611 333 0 611 0 889 611 556 
-0 0 389 444 333 611 0 833 500 556 ]
+0 500 611 444 611 500 389 556 611 333 0 611 333 889 611 556 
+0 0 389 444 333 611 556 833 500 556 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Palatino-Bold
 /FontDescriptor 23 0 R
@@ -898,12 +971,12 @@ endobj
 /FirstChar 32
 /LastChar 146
 /Widths [600 0 0 0 0 0 0 0 600 600 0 0 600 0 0 600 
-600 600 600 0 600 600 600 0 0 0 0 600 600 600 600 600 
+600 600 600 600 600 600 600 0 0 0 600 600 600 600 600 600 
 0 0 0 0 0 0 0 0 0 0 0 0 600 0 0 0 
 0 0 600 600 0 0 0 0 0 0 0 0 0 0 0 0 
 0 600 600 600 600 600 600 600 600 600 0 0 600 600 600 600 
-600 0 600 600 600 600 600 600 0 600 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+600 0 600 600 600 600 600 600 600 600 0 600 0 600 0 0 
+0 0 0 0 0 0 0 0 600 0 0 0 0 0 0 0 
 0 0 600 ]
 /Encoding /WinAnsiEncoding
 /BaseFont /Courier
@@ -916,12 +989,12 @@ endobj
 /Subtype /TrueType
 /FirstChar 32
 /LastChar 147
-/Widths [250 333 0 0 500 0 778 0 333 333 0 0 250 333 250 0 
+/Widths [250 333 0 0 500 0 778 0 333 333 0 0 250 333 250 296 
 500 500 500 500 500 0 500 0 0 500 250 250 606 606 606 500 
 0 722 0 667 778 611 556 0 0 333 0 0 556 944 778 778 
 611 0 667 556 611 0 0 944 722 0 0 0 0 0 0 0 
 0 444 463 407 500 389 278 500 500 278 0 444 278 778 556 444 
-500 0 389 389 333 556 500 722 500 500 0 0 0 0 0 0 
+500 463 389 389 333 556 500 722 500 500 0 0 0 0 0 0 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 0 0 278 500 ]
 /Encoding /WinAnsiEncoding
@@ -1018,8 +1091,8 @@ endobj
 endobj
 31 0 obj
 <<
-/CreationDate (D:20200311035627-04'00')
-/ModDate (D:20200311035627-04'00')
+/CreationDate (D:20200311041930-04'00')
+/ModDate (D:20200311041930-04'00')
 /Producer (Apple pstopdffilter)
 >>
 endobj
@@ -1033,45 +1106,45 @@ endobj
 xref
 0 33
 0000000000 65535 f 
-0000016734 00000 n 
+0000018327 00000 n 
 0000000016 00000 n 
 0000003773 00000 n 
-0000014198 00000 n 
-0000014731 00000 n 
-0000015155 00000 n 
-0000015634 00000 n 
-0000016167 00000 n 
-0000012643 00000 n 
-0000017135 00000 n 
-0000016815 00000 n 
+0000015761 00000 n 
+0000016294 00000 n 
+0000016732 00000 n 
+0000017223 00000 n 
+0000017760 00000 n 
+0000014206 00000 n 
+0000018728 00000 n 
+0000018408 00000 n 
 0000003912 00000 n 
 0000007135 00000 n 
-0000016344 00000 n 
-0000016899 00000 n 
+0000017937 00000 n 
+0000018492 00000 n 
 0000007277 00000 n 
 0000011152 00000 n 
-0000016519 00000 n 
-0000016983 00000 n 
+0000018112 00000 n 
+0000018576 00000 n 
 0000011296 00000 n 
-0000012536 00000 n 
-0000012783 00000 n 
-0000012983 00000 n 
-0000013188 00000 n 
-0000013379 00000 n 
-0000013582 00000 n 
-0000013782 00000 n 
-0000013985 00000 n 
-0000017067 00000 n 
-0000017095 00000 n 
-0000017238 00000 n 
-0000017367 00000 n 
+0000014064 00000 n 
+0000014346 00000 n 
+0000014546 00000 n 
+0000014751 00000 n 
+0000014942 00000 n 
+0000015145 00000 n 
+0000015345 00000 n 
+0000015548 00000 n 
+0000018660 00000 n 
+0000018688 00000 n 
+0000018831 00000 n 
+0000018960 00000 n 
 trailer
 <<
 /Size 33
 /Root 32 0 R
 /Info 31 0 R
-/ID [<733de7b9cc3e4738efeba489d93053f4><733de7b9cc3e4738efeba489d93053f4>]
+/ID [<84a79d33b65b1127ec33ac7231bea093><84a79d33b65b1127ec33ac7231bea093>]
 >>
 startxref
-17437
+19030
 %%EOF
