@@ -1,0 +1,679 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 4738
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0.1 0.5 0.2 rg
+/GS1 gs
+0 Tc
+0 Tw
+[(CS260, Computer Ar)18(chitectur)18(e)-250(I)0(I)]TJ
+/TT4 1 Tf
+12 0 0 12 260.172 657 Tm
+0 0 0 rg
+(Lecture 10)Tj
+/TT2 1 Tf
+10 0 0 10 97 617.4 Tm
+0.1553 Tw
+(On functions -- how to implement them in assembly language, and the commands)Tj
+0 -1.2 TD
+0.0855 Tw
+[(and pr)18(otocols associated with them \(JAL, JR, $ra, $a0-a3, $v0-v1, persisting r)18(egisters,)]TJ
+T*
+0 Tw
+(etc\))Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
+(Functions/Function Calls)Tj
+/TT2 1 Tf
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0431 Tw
+(The basic idea: a function will be de)Tj
+/TT5 1 Tf
+16.1044 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.0431 Tw
+(ned as some code following a label \(with the function)Tj
+-16.7094 -1.2 TD
+0.1481 Tw
+[(name\). The caller jumps to the label and executes the following code until it r)18(eceives an)]TJ
+T*
+0.2796 Tw
+[(instr)8(uction to r)18(eturn contr)18(ol to the instr)8(uction after the original function call. Passing)]TJ
+T*
+0.0055 Tw
+[(parameters and r)18(eturn values is handled by storing them in r)18(egisters meant for the purpose.)]TJ
+0 g
+-2.5 -2.76 TD
+0 Tw
+(ï)Tj
+/TT7 1 Tf
+0 0 0 rg
+2.5 0 TD
+(JAL)Tj
+/TT2 1 Tf
+2.0503 0 TD
+[(-)-250(jump and link)]TJ
+0 g
+-2.0503 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1404 Tw
+[(When we jump to a function, we need to know the location of the next instr)8(uction)]TJ
+0 -1.2 TD
+0 Tw
+[(\(befor)18(e)-250(jumping\), so we know wher)18(e)-250(t)0(o)-250(r)18(eturn contr)18(ol to afterwar)18(ds)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0109 Tw
+[(JAL automatically stor)18(es addr)18(es of the next instr)8(uction in the)]TJ
+/TT7 1 Tf
+27.1968 0 TD
+0 Tw
+($ra)Tj
+/TT2 1 Tf
+2.0613 0 TD
+0.011 Tw
+[(r)18(egister when called)]TJ
+0 g
+-31.7581 -1.56 TD
+0 Tw
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Call with)Tj
+/TT7 1 Tf
+4.3242 0 TD
+(JAL function_name)Tj
+/TT2 1 Tf
+0 g
+-6.8242 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(r)18(eturn contr)18(ol with)]TJ
+/TT7 1 Tf
+8.6574 0 TD
+(JR $ra)Tj
+/TT9 1 Tf
+4.1006 0 TD
+[(\(jump to the addr)18(ess speci)]TJ
+/TT10 1 Tf
+10.3897 0 TD
+(ﬁ)Tj
+/TT9 1 Tf
+0.5278 0 TD
+(ed in $ra\))Tj
+/TT2 1 Tf
+-26.1754 -2.4 TD
+(Caller)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+96.99 389.31 m
+123.63 389.31 l
+S
+BT
+10 0 0 10 126.15 391.8 Tm
+[(-)-250(the function doing the calling \(e.g. the)]TJ
+/TT9 1 Tf
+17.6108 0 TD
+(main)Tj
+/TT2 1 Tf
+2.3057 0 TD
+(function calls the)Tj
+/TT9 1 Tf
+7.7939 0 TD
+(pow)Tj
+/TT2 1 Tf
+1.916 0 TD
+(function\))Tj
+-32.5415 -2.4 TD
+(Callee)Tj
+ET
+96.99 365.31 m
+124.47 365.31 l
+S
+BT
+10 0 0 10 126.99 367.8 Tm
+[(-)-250(the function being called)]TJ
+-5.499 -2.76 TD
+(How do we pass parameters?)Tj
+0 g
+2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(r)18(egisters)]TJ
+/TT7 1 Tf
+4.001 0 TD
+(a0 - a3)Tj
+/TT2 1 Tf
+4.4507 0 TD
+[(ar)18(e)-250(used to accept parameters)]TJ
+0 g
+-10.9517 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(r)18(egisters)]TJ
+/TT7 1 Tf
+4.001 0 TD
+(v0 - v1)Tj
+/TT2 1 Tf
+4.4507 0 TD
+[(ar)18(e)-250(used to r)18(eturn the r)18(esult)]TJ
+0 g
+-10.9517 -1.56 TD
+(ï)Tj
+/TT9 1 Tf
+0 0 0 rg
+2.5 0 TD
+0.1492 Tw
+(Specify in a comment above your function de)Tj
+/TT10 1 Tf
+19.0918 0 TD
+0 Tw
+(ﬁ)Tj
+/TT9 1 Tf
+0.5278 0 TD
+0.1491 Tw
+[(nition which r)18(egisters should be loaded with)]TJ
+-19.6196 -1.2 TD
+0 Tw
+[(parameters \(in what order\), and similarly with r)18(eturn values.)]TJ
+ET
+162.03 263.43 m
+414.03 263.43 l
+S
+BT
+/TT2 1 Tf
+10 0 0 10 72 240.4 Tm
+[(A)-250(note on convention -- persistent r)18(egisters.)]TJ
+0 g
+0 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1326 Tw
+[(By convention, we decide that some r)18(egister types have their state/value pr)18(eserved after)]TJ
+0 -1.2 TD
+0.0271 Tw
+[(calling a function, while others donít. For example, s r)18(egisters cannot have their value man-)]TJ
+T*
+0.1437 Tw
+[(gled after a call to a function -- they ar)18(e)-393.8(guaranteed to be unchanged. t r)18(egisters, on the)]TJ
+T*
+0.0434 Tw
+[(other hand, have no guarantee of maintaining their state -- functions can fr)18(eely change and)]TJ
+T*
+0 Tw
+[(r)18(epurpose them without pr)18(eserving their values upon r)18(eturn to the caller)74(.)]TJ
+-2.5 -2.76 TD
+[(A)-250(note on pseudoinstr)8(uctions)]TJ
+0 g
+T*
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0155 Tw
+[(A)-265.5(pseudoinstr)8(uction is something that isnít a dir)18(ect mnemonic to a machine instr)8(uction, but)]TJ
+0 -1.2 TD
+0.0696 Tw
+[(is allowed by the assembler anyhow)92(.)-319.7(A)-319.6(common example is the)]TJ
+/TT7 1 Tf
+28.9774 0 TD
+0 Tw
+(LI)Tj
+/TT2 1 Tf
+1.5198 0 TD
+0.0696 Tw
+(\(load immediate\) com-)Tj
+-30.4972 -1.2 TD
+0.003 Tw
+(mand, which is equivalent to using)Tj
+/TT7 1 Tf
+15.7959 0 TD
+0.0031 Tw
+(ADDI $target, $zero, val)Tj
+/TT2 1 Tf
+14.6647 0 TD
+[(,)-253.1(without the bur)18(den of)]TJ
+-30.4607 -1.2 TD
+0 Tw
+[(the $zer)18(o)-250(r)18(egister)74(.)]TJ
+0 g
+15.9255 -4.96 TD
+[(12 Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT5 6 0 R
+/TT7 7 0 R
+/TT9 8 0 R
+/TT10 9 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+13 0 obj
+<<
+/Length 1231
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+0 0 0 rg
+-18.517 -3.6 TD
+(EXAMPLE)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+96.99 705.51 m
+145.23 705.51 l
+S
+BT
+10 0 0 10 97 684 Tm
+[(Cr)18(eate the function INCREMENT)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(accepts integer in a0)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(incr)18(eases integer by 1)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(r)18(eturns r)18(esult in v0)]TJ
+-2.5 -2.76 TD
+(CALLER)Tj
+ET
+72.03 607.11 m
+111.87 607.11 l
+S
+BT
+/TT7 1 Tf
+10 0 0 10 72 585.6 Tm
+(ADDI $a0, $zero, 5)Tj
+/TT9 1 Tf
+16.0518 0 TD
+(#load value into param)Tj
+/TT7 1 Tf
+-16.0518 -1.56 TD
+(JAL INCREMENT)Tj
+/TT9 1 Tf
+15.5513 0 TD
+(#jumps to function \(calls\))Tj
+/TT7 1 Tf
+-15.5513 -1.56 TD
+(...)Tj
+/TT2 1 Tf
+0 -2.4 TD
+(CALLEE)Tj
+ET
+72.03 527.91 m
+111.27 527.91 l
+S
+BT
+/TT7 1 Tf
+10 0 0 10 72 506.4 Tm
+(INCREMENT:)Tj
+/TT9 1 Tf
+16.251 0 TD
+(#label/function name)Tj
+/TT7 1 Tf
+-16.251 -1.56 TD
+(ADDI $v0, $a0, 1)Tj
+/TT9 1 Tf
+17.3516 0 TD
+[(#Incr)18(ement, load r)18(esult into r)18(eturn r)18(egister)]TJ
+/TT7 1 Tf
+-17.3516 -1.56 TD
+(JR $ra)Tj
+/TT9 1 Tf
+16.3506 0 TD
+(#jump to next instruction in caller)Tj
+/TT2 1 Tf
+0 g
+2.0749 -45.12 TD
+[(12 Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+14 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT7 7 0 R
+/TT9 8 0 R
+>>
+/ExtGState <<
+/GS1 10 0 R
+>>
+>>
+endobj
+10 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+16 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+17 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+18 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+19 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+20 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 0 0 500 0 0 0 333 333 0 0 250 333 250 606 
+500 500 500 500 0 0 500 0 0 0 250 0 0 0 0 444 
+0 778 611 709 0 611 556 0 832 337 333 0 611 946 831 786 
+604 0 668 525 613 0 0 1000 667 0 0 0 0 0 0 0 
+0 500 553 444 611 479 333 556 582 291 234 556 291 883 582 546 
+601 560 395 424 326 603 565 834 516 556 500 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 0 0 606 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 15 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 117
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 296 
+500 500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 722 0 0 556 0 0 0 0 0 611 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 500 0 444 0 500 0 0 0 333 0 0 333 0 611 556 
+0 0 389 444 333 611 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 16 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [605 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 17 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [600 0 0 0 600 0 0 0 0 0 0 0 600 600 600 0 
+600 600 0 600 0 600 0 0 0 0 600 0 0 0 0 0 
+0 600 0 600 600 600 0 0 0 600 600 0 600 600 600 0 
+0 0 600 0 600 0 0 0 0 0 0 0 0 0 0 600 
+0 600 0 600 0 600 600 600 0 600 0 0 600 600 600 600 
+0 0 600 0 600 600 600 0 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 18 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [250 0 0 606 500 0 0 0 333 333 0 0 250 0 250 296 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 333 0 0 0 0 0 0 
+0 0 0 556 0 0 0 0 0 0 0 0 0 0 0 0 
+0 444 463 407 500 389 278 500 500 278 278 0 278 778 556 444 
+500 0 389 389 333 556 500 722 500 500 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 19 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [528 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 20 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Type /Page
+/Parent 11 0 R
+/Resources 14 0 R
+/Contents 13 0 R
+>>
+endobj
+21 0 obj
+<<
+/S /D
+>>
+endobj
+22 0 obj
+<<
+/Nums [0 21 0 R ]
+>>
+endobj
+11 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 12 0 R]
+/Count 2
+/MediaBox [0 0 612 792]
+>>
+endobj
+23 0 obj
+<<
+/CreationDate (D:20200312050745-04'00')
+/ModDate (D:20200312050745-04'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+24 0 obj
+<<
+/Type /Catalog
+/Pages 11 0 R
+/PageLabels 22 0 R
+>>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000009803 00000 n 
+0000000016 00000 n 
+0000004806 00000 n 
+0000007704 00000 n 
+0000008237 00000 n 
+0000008616 00000 n 
+0000008789 00000 n 
+0000009210 00000 n 
+0000009629 00000 n 
+0000006361 00000 n 
+0000010036 00000 n 
+0000009884 00000 n 
+0000004958 00000 n 
+0000006242 00000 n 
+0000006502 00000 n 
+0000006702 00000 n 
+0000006907 00000 n 
+0000007107 00000 n 
+0000007298 00000 n 
+0000007501 00000 n 
+0000009968 00000 n 
+0000009996 00000 n 
+0000010125 00000 n 
+0000010254 00000 n 
+trailer
+<<
+/Size 25
+/Root 24 0 R
+/Info 23 0 R
+/ID [<43d195224cfa04bbfb4763948425ae42><43d195224cfa04bbfb4763948425ae42>]
+>>
+startxref
+10324
+%%EOF
