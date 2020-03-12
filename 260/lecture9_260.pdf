@@ -1,0 +1,634 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 2690
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0.1 0.5 0.2 rg
+/GS1 gs
+0 Tc
+0 Tw
+[(CS260, Computer Ar)18(chitectur)18(e)-250(I)0(I)]TJ
+/TT4 1 Tf
+12 0 0 12 263.172 657 Tm
+0 0 0 rg
+(Lecture 9)Tj
+/TT2 1 Tf
+10 0 0 10 97 617.4 Tm
+0.0682 Tw
+(On branching -- how can we implement conditional logic and loops in assembly lan-)Tj
+0 -1.2 TD
+0 Tw
+[(guage? How do we translate C++ pr)18(ograms using those elements to MIPS?)]TJ
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -2.4 TD
+(Branching and Loops)Tj
+/TT2 1 Tf
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(T)92(o)92( )-92(implement if statements in MIPS, we can use "branching")]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(All branch instr)8(uctions do comparisons)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(BEQ \(branch if equal\), BNE \(branch if not equal\))Tj
+0 g
+0 -1.56 TD
+(ï)Tj
+/TT6 1 Tf
+0 0 0 rg
+2.5 0 TD
+(BEQ $s0, $s1, LABEL1)Tj
+/TT8 1 Tf
+12.502 0 TD
+(\(if $s0 == $s1, jump to LABEL1\))Tj
+/TT2 1 Tf
+0 g
+-17.5019 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1583 Tw
+[(A)-408.3(label in a pr)18(ogramming language is a sequence of characters that identi)]TJ
+/TT9 1 Tf
+34.3497 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1584 Tw
+(es a location)Tj
+-34.9546 -1.2 TD
+0 Tw
+[(within sour)18(ce code)]TJ
+0 -2.4 TD
+(Example)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+96.99 464.91 m
+135.75 464.91 l
+S
+BT
+10 0 0 10 97 451.8 Tm
+(C++)Tj
+/TT6 1 Tf
+2.5 -2.4 TD
+(if \(i != 0\) i++;)Tj
+/TT2 1 Tf
+-2.5 -2.76 TD
+(MIPS)Tj
+/TT8 1 Tf
+5.2496 0 TD
+(Let i be in $s0)Tj
+/TT6 1 Tf
+-2.7496 -2.4 TD
+(BEQ $s0, $zero, L1)Tj
+0 -1.56 TD
+(ADDI $s0, $s0, 1)Tj
+T*
+(L1:)Tj
+/TT8 1 Tf
+8 0 0 8 122 321 Tm
+(This works because we jump over the ADDI instruction if we meet the condition)Tj
+/TT2 1 Tf
+10 0 0 10 72 293.4 Tm
+0 g
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(W)92(e)92( )-92(can also use branching to implement loops)]TJ
+0 -1.56 TD
+(C++)Tj
+/TT6 1 Tf
+2.5 -2.4 TD
+(for\(int i = 0; i < 10; ++i\))Tj
+2.5 -2.4 TD
+(var++;)Tj
+/TT2 1 Tf
+-5 -2.76 TD
+(MIPS)Tj
+/TT6 1 Tf
+2.5 -2.4 TD
+(ADDI $t0, $zero, $zero)Tj
+/TT8 1 Tf
+15.9521 0 TD
+(#initialize start, i = 0)Tj
+/TT6 1 Tf
+-15.9521 -1.56 TD
+(ADDI $t1, $zero, 10)Tj
+/TT8 1 Tf
+15.9019 0 TD
+(#initialize stop, i = 10)Tj
+/TT6 1 Tf
+-20.9019 -2.4 TD
+[(LOOP: )-1400(BEQ)-600($t0, $t1, END)]TJ
+/TT8 1 Tf
+20.7021 0 TD
+(#if i == 10, end the loop)Tj
+/TT6 1 Tf
+-15.7021 -1.56 TD
+(ADDI $s0, $zero, 1)Tj
+/TT8 1 Tf
+15.5518 0 TD
+[(#)-250(var++, assuming var is in s0)]TJ
+/TT6 1 Tf
+-15.5518 -1.56 TD
+(ADDI $t0, $zero, 1)Tj
+/TT8 1 Tf
+15.5518 0 TD
+[(#)-250(incr)18(ement counter)74(,)-250(i++)]TJ
+/TT6 1 Tf
+-15.5518 -1.56 TD
+(BEQ $zero, $zero, LOOP)Tj
+/TT8 1 Tf
+15.4521 0 TD
+[(#)-250(always loop back to the top)]TJ
+/TT6 1 Tf
+-20.4521 -1.56 TD
+(END:)Tj
+/TT2 1 Tf
+0 g
+18.4255 -5.22 TD
+[(12 Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT9 8 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+12 0 obj
+<<
+/Length 2755
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+-21.017 -3.6 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1094 Tw
+[(The basic idea is that we keep looping until our index variable and the stop ar)18(e)-359.4(equal, at)]TJ
+0 -1.2 TD
+0 Tw
+[(which point we jump over the loop to the following instr)8(uctions.)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.1205 Tw
+(Notice the line)Tj
+/TT6 1 Tf
+7.0588 0 TD
+(BEQ $zero, $zero, LOOP)Tj
+/TT2 1 Tf
+13.9341 0 TD
+[(-- this always evaluates to tr)8(ue, so we loop)]TJ
+-20.9929 -1.2 TD
+0.0198 Tw
+(back every time we )Tj
+/TT9 1 Tf
+8.8985 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.0198 Tw
+[(nish executing the body of the loop. Ther)18(eís actually a speci)]TJ
+/TT9 1 Tf
+26.4881 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.0198 Tw
+[(c instr)8(uc-)]TJ
+-36.5966 -1.2 TD
+0 Tw
+[(tion that is meant to jump unconditionally)111(.)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+/TT6 1 Tf
+0 0 0 rg
+2.5 0 TD
+(J)Tj
+/TT2 1 Tf
+0.8501 0 TD
+(-- unconditional jump)Tj
+0 g
+-0.8501 -1.56 TD
+(ï)Tj
+/TT8 1 Tf
+0 0 0 rg
+2.5 0 TD
+[(In our example, we would r)18(eplace that line with)]TJ
+/TT6 1 Tf
+19.9897 0 TD
+[(J)-600(LOOP)]TJ
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-24.9897 -3.6 TD
+(Comparing values \(less than\))Tj
+/TT2 1 Tf
+0 g
+0 -1.92 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(What would happen if our loop above incr)18(emented i by 3 instead of by 1?)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0412 Tw
+(Our trick of checking if i == 10 to determine when to stop would fail, because i would skip)Tj
+0 -1.2 TD
+0.1752 Tw
+(over 10 \(straight to 12\), and the loop would continue inde)Tj
+/TT9 1 Tf
+27.19 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.1751 Tw
+[(nitely)111(,)-425.1(since the condition is)]TJ
+-27.795 -1.2 TD
+0 Tw
+(never met.)Tj
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(A)-250(solution would be to use the)]TJ
+/TT8 1 Tf
+13.8188 0 TD
+(less than)Tj
+/TT2 1 Tf
+3.7783 0 TD
+(operator!)Tj
+/TT4 1 Tf
+-17.5971 -2.4 TD
+[(SL)74(T)-250(-)0(-)-250(Set on less than \(signed\))]TJ
+/TT2 1 Tf
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0531 Tw
+[(Compar)18(es two r)18(egisters, if the value in the )]TJ
+/TT9 1 Tf
+19.3606 0 TD
+0 Tw
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+0.0532 Tw
+(rst is less than the value in the second, it)Tj
+-19.9655 -1.2 TD
+0 Tw
+("sets" the )Tj
+/TT9 1 Tf
+4.2822 0 TD
+(ﬁ)Tj
+/TT2 1 Tf
+0.605 0 TD
+[(rst bit of the destination r)18(egister \(makes the rightmost bit 1\))]TJ
+0 g
+-7.3872 -1.56 TD
+(ï)Tj
+/TT6 1 Tf
+0 0 0 rg
+2.5 0 TD
+(SLT $s0, $t0, $t1)Tj
+/TT8 1 Tf
+15.4517 0 TD
+[(#)-250(i)0(s)-250(t)0(0)-250(<)-250(t1? set s0 if yes)]TJ
+/TT2 1 Tf
+0 g
+-17.9516 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+(Of course we also have)Tj
+/TT6 1 Tf
+10.4595 0 TD
+(SLTI)Tj
+/TT2 1 Tf
+2.6504 0 TD
+[(,)-250(which does the same thing but accepts an immediate)]TJ
+0 g
+0.3157 -40.8 TD
+[(12 Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT8 7 0 R
+/TT9 8 0 R
+>>
+/ExtGState <<
+/GS1 9 0 R
+>>
+>>
+endobj
+9 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+14 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+15 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+16 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+17 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+18 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 278 371 0 0 0 0 0 333 333 0 606 250 333 250 0 
+500 500 500 500 0 0 500 0 0 0 0 0 0 606 0 444 
+0 778 611 709 0 611 0 0 832 337 0 0 0 946 831 786 
+604 786 0 525 613 0 0 1000 0 0 0 0 0 0 0 0 
+0 500 553 444 611 479 333 556 582 291 234 556 291 883 582 546 
+601 560 395 424 326 603 565 834 516 556 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 0 0 606 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 14 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 118
+/Widths [250 0 0 0 0 0 0 0 333 333 0 0 0 333 0 0 
+0 0 0 0 0 0 0 0 0 500 0 0 0 0 0 0 
+0 0 667 722 0 0 0 0 0 0 0 0 611 0 0 0 
+0 0 0 611 667 0 0 0 0 0 0 0 0 0 0 0 
+0 500 0 444 611 500 0 556 611 333 0 0 333 889 611 556 
+611 0 389 444 333 611 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 15 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [600 600 0 0 600 0 0 0 600 600 0 600 600 0 0 0 
+600 600 0 0 0 0 0 0 0 0 600 600 600 600 0 0 
+0 600 600 0 600 600 0 0 0 600 600 0 600 0 600 600 
+600 600 0 600 600 0 0 0 0 0 0 0 0 0 0 0 
+0 600 0 0 0 600 600 0 0 600 0 0 0 0 600 600 
+0 0 600 600 600 0 600 0 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 16 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [250 0 0 606 500 0 0 0 333 333 0 606 250 0 0 0 
+500 500 0 0 0 0 0 0 0 0 0 0 606 606 0 500 
+0 722 611 0 778 611 0 0 0 333 0 0 556 0 0 0 
+0 0 0 0 611 0 0 0 0 0 0 0 0 0 0 0 
+0 444 463 407 500 389 278 500 500 278 278 444 278 778 556 444 
+500 0 389 389 333 556 500 722 500 500 444 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 17 0 R
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 222
+/LastChar 222
+/Widths [605 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 18 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+19 0 obj
+<<
+/S /D
+>>
+endobj
+20 0 obj
+<<
+/Nums [0 19 0 R ]
+>>
+endobj
+10 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 11 0 R]
+/Count 2
+/MediaBox [0 0 612 792]
+>>
+endobj
+21 0 obj
+<<
+/CreationDate (D:20200312025852-04'00')
+/ModDate (D:20200312025852-04'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 10 0 R
+/PageLabels 20 0 R
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000008945 00000 n 
+0000000016 00000 n 
+0000002758 00000 n 
+0000006984 00000 n 
+0000007509 00000 n 
+0000007908 00000 n 
+0000008329 00000 n 
+0000008772 00000 n 
+0000005845 00000 n 
+0000009178 00000 n 
+0000009026 00000 n 
+0000002897 00000 n 
+0000005705 00000 n 
+0000005985 00000 n 
+0000006185 00000 n 
+0000006390 00000 n 
+0000006581 00000 n 
+0000006784 00000 n 
+0000009110 00000 n 
+0000009138 00000 n 
+0000009267 00000 n 
+0000009396 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [<bf37eb165fe3991f4f7d97feed3e37b3><bf37eb165fe3991f4f7d97feed3e37b3>]
+>>
+startxref
+9466
+%%EOF
