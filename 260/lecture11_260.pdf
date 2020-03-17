@@ -1,0 +1,780 @@
+%PDF-1.3
+%‚„œ”
+2 0 obj
+<<
+/Length 3130
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 72 708 Tm
+0.1 0.5 0.2 rg
+/GS1 gs
+0 Tc
+0 Tw
+[(CS260, Computer Ar)18(chitectur)18(e)-250(I)0(I)]TJ
+/TT4 1 Tf
+12 0 0 12 260.394 657 Tm
+0 0 0 rg
+[(Lecture 1)37(1)]TJ
+/TT2 1 Tf
+10 0 0 10 97 602.4 Tm
+0.0991 Tw
+[(On the str)8(uctur)18(e)-349.2(o)0(f)-349.2(p)0(r)18(ograms in memory)111(,)-349.2(and how to pr)18(eserve variables thr)18(oughout)]TJ
+0 -1.2 TD
+0 Tw
+(function calls by using the stack)Tj
+/TT4 1 Tf
+0.1 0.5 0.2 rg
+-2.5 -3.6 TD
+(Programs in memory)Tj
+/TT2 1 Tf
+0 g
+0 -1.92 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(When a pr)18(ogram r)8(uns, it is allocated some space in RAM)]TJ
+/TT6 1 Tf
+0 -2.4 TD
+(MAX)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+96.99 500.67 m
+139.83 500.67 l
+S
+BT
+/TT2 1 Tf
+10 0 0 10 102 491.2 Tm
+[(ST)74(ACK)]TJ
+ET
+96.99 486.75 m
+139.83 486.75 l
+96.99 472.71 m
+139.83 472.71 l
+S
+BT
+10 0 0 10 104.26 463.2 Tm
+(HEAP)Tj
+ET
+96.99 458.67 m
+139.83 458.67 l
+S
+BT
+10 0 0 10 104.41 449.2 Tm
+-0.074 Tc
+[(D)-74(ATA)]TJ
+ET
+96.99 444.75 m
+139.83 444.75 l
+S
+BT
+10 0 0 10 105.865 435.2 Tm
+0 Tc
+(TEXT)Tj
+ET
+96.99 430.71 m
+139.83 430.71 l
+139.83 500.67 l
+96.99 430.71 m
+96.99 500.67 l
+S
+BT
+/TT6 1 Tf
+10 0 0 10 97 417.2 Tm
+(0)Tj
+/TT2 1 Tf
+T*
+[(T)92(ext)]TJ
+ET
+96.99 390.75 m
+115.47 390.75 l
+S
+BT
+10 0 0 10 117.92 393.2 Tm
+[(-)-250(the code itself)]TJ
+-2.092 -2.4 TD
+(Data)Tj
+ET
+96.99 366.75 m
+117.99 366.75 l
+S
+BT
+10 0 0 10 120.5 369.2 Tm
+[(-)-250(data that persists as the pr)18(ograms r)8(uns \(e.g. global/static variables\))]TJ
+-2.35 -2.4 TD
+(Heap)Tj
+ET
+96.99 342.75 m
+121.11 342.75 l
+S
+BT
+10 0 0 10 125.536 345.2 Tm
+0.1916 Tw
+[(-)-441.6(also known as ífr)18(ee storageí. Heap size is dynamic; it constantly gr)18(ows/shrinks)]TJ
+-2.8536 -1.2 TD
+0 Tw
+(\(new/delete\), and as such its size isnít known at the start.)Tj
+0 -2.4 TD
+(Stack)Tj
+ET
+96.99 306.75 m
+120.51 306.75 l
+S
+BT
+10 0 0 10 124.385 309.2 Tm
+0.1375 Tw
+[(-)-387.5(Contains all local variables, temporary information, parameters, r)18(eturn addr)18(esses,)]TJ
+-2.7385 -1.2 TD
+0 Tw
+(etc. The stack is usually small, has a max size that the OS will allow it to be.)Tj
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(The stack gr)18(ows downwar)18(ds -- the lar)18(ger it is, the closer it gets to the heap)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(The heap gr)18(ows upwar)18(ds, towar)18(ds the stack)]TJ
+0 g
+-2.5 -2.76 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+0.0602 Tw
+[(Theor)18(etically)111(,)-310.2(i)0(f)-310.2(the stack gets lar)18(ge enough, ther)18(e)-310.3(may be a stack under)]TJ
+/TT7 1 Tf
+32.1191 0 TD
+0 Tw
+(ﬂ)Tj
+/TT2 1 Tf
+0.6079 0 TD
+0.0603 Tw
+(ow \(the stack and)Tj
+-32.727 -1.2 TD
+0.1555 Tw
+[(heap collide\). This may happen if you allocate too much space in a static array)111(,)-405.5(o)0(r)-405.5(have)]TJ
+T*
+0 Tw
+[(r)18(ecursion thatís too deep.)]TJ
+0 g
+0 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(In practice, this wonít happen, because the MAX for a stack is very lar)18(ge.)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+/TT6 1 Tf
+0 0 0 rg
+2.5 0 TD
+0.2633 Tw
+[(Note: the MAX is not r)18(elated to how much RAM you have -- ití)55(s)-513.3(typically huge \(ter-)]TJ
+0 -1.2 TD
+0 Tw
+(abytes/petabytes\))Tj
+/TT2 1 Tf
+0 g
+13.4255 -13.52 TD
+[(17 Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT7 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+>>
+endobj
+11 0 obj
+<<
+/Length 3123
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-2-)Tj
+0 0 0 rg
+-21.017 -3.6 TD
+[(All pr)18(ograms sit somewher)18(e)-250(i)0(n)-250(the RAM, each with the pr)18(eviously mentioned str)8(uctur)18(e.)]TJ
+/TT4 1 Tf
+0 -2.4 TD
+(RAM)Tj
+/TT6 1 Tf
+T*
+(MAX)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+72.03 649.47 m
+141.63 649.47 l
+S
+BT
+/TT2 1 Tf
+10 0 0 10 77 640 Tm
+(PROGRAM 1)Tj
+ET
+72.03 635.55 m
+141.63 635.55 l
+72.03 621.51 m
+141.63 621.51 l
+S
+BT
+10 0 0 10 77 612 Tm
+(PROGRAM 2)Tj
+ET
+72.03 607.47 m
+141.63 607.47 l
+72.03 593.55 m
+141.63 593.55 l
+72.03 579.51 m
+141.63 579.51 l
+72.03 565.47 m
+141.63 565.47 l
+S
+BT
+10 0 0 10 77 556 Tm
+(PROGRAM 3)Tj
+ET
+72.03 551.55 m
+141.63 551.55 l
+141.63 649.47 l
+72.03 551.55 m
+72.03 649.47 l
+S
+BT
+/TT6 1 Tf
+10 0 0 10 72 538 Tm
+(0)Tj
+/TT2 1 Tf
+0 -2.76 TD
+0.0207 Tw
+[(However)74(,)-270.8(each pr)18(ogram believes that it starts at addr)18(ess 0 and ends at its MAX. Then, the operat-)]TJ
+0 -1.2 TD
+0.1271 Tw
+[(ing system br)18(eaks it into chunks and scatters it acr)18(oss RAM. As a consequence, we write each)]TJ
+T*
+0 Tw
+[(pr)18(ogram as if itís the only pr)18(ogram using the RAM.)]TJ
+ET
+162.03 456.39 m
+414.03 456.39 l
+S
+BT
+/TT4 1 Tf
+10 0 0 10 72 409.4 Tm
+0.1 0.5 0.2 rg
+(More on the stack)Tj
+/TT2 1 Tf
+0 0 0 rg
+0 -2.76 TD
+0.1747 Tw
+[(What happens if we need to use mor)18(e)-424.8(r)18(egisters than we have available in our pr)18(ogram? \(for)]TJ
+0 -1.2 TD
+0 Tw
+[(example, you may be storing many values that need to be pr)18(eserved\).)]TJ
+0 -2.4 TD
+0.0443 Tw
+[(Solution: W)92(e)-294.3(can use the stack to pr)18(eserve values while we use r)18(egisters for other purposes, then)]TJ
+0 -1.2 TD
+0 Tw
+[(r)18(estor)18(e)-250(the r)18(egisters and values back to their original state.)]TJ
+0 -2.4 TD
+(Stack pointer)Tj
+ET
+72.03 307.35 m
+130.23 307.35 l
+S
+BT
+10 0 0 10 132.71 309.8 Tm
+[(-)-250(points to the lowest edge of the stack)]TJ
+0 g
+-3.571 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(Stor)18(ed in $sp)]TJ
+0 g
+-2.5 -1.56 TD
+(ï)Tj
+0 0 0 rg
+2.5 0 TD
+[(T)92(o)92( )-92(allocate memory for the stack, move the stack pointer down \(subtract bytes, e.g. 4\))]TJ
+-5 -3.6 TD
+(EXAMPLE 1)Tj
+ET
+72.03 240.15 m
+127.83 240.15 l
+S
+BT
+/TT6 1 Tf
+10 0 0 10 72 218.5999 Tm
+[(#)-250(p)0(r)18(eserve pr)18(evious state of S r)18(egisters using the stack)]TJ
+/TT9 1 Tf
+0 -1.56 TD
+(FUNC:)Tj
+2.5 -1.56 TD
+(ADDI $sp, $sp, -4)Tj
+/TT6 1 Tf
+12.9517 0 TD
+[(#allocate 4 bytes mor)18(e)]TJ
+/TT9 1 Tf
+-12.9517 -1.56 TD
+1.2 Tw
+[(SW $s0,)-600(0\($sp\))]TJ
+/TT6 1 Tf
+12.8513 0 TD
+0 Tw
+[(#stor)18(e)-250($s0 in $sp)]TJ
+/TT9 1 Tf
+-12.8513 -1.56 TD
+(...)Tj
+T*
+(ADDI $s0, $zero, 1)Tj
+/TT6 1 Tf
+12.8018 0 TD
+(#mess up $s0)Tj
+/TT9 1 Tf
+-12.8018 -1.56 TD
+(...)Tj
+T*
+0.7 Tw
+[(LW $s0,)-600(0\($sp\))]TJ
+/TT6 1 Tf
+12.6013 0 TD
+0 Tw
+[(#load original $s0 value back, r)18(estor)18(e)-250(state)]TJ
+/TT9 1 Tf
+-12.6013 -1.56 TD
+(ADDI $sp, $sp, 4)Tj
+/TT6 1 Tf
+12.6016 0 TD
+[(#r)18(estor)18(e)-250(stack pointer to how it was befor)18(e)-250(\(deallocate\))]TJ
+/TT9 1 Tf
+-12.6016 -1.56 TD
+0.7 Tw
+(JR $ra)Tj
+/TT6 1 Tf
+12.5506 0 TD
+0 Tw
+[(#r)18(eturn contr)18(ol to caller)]TJ
+/TT2 1 Tf
+0 g
+3.3749 -5.42 TD
+[(17 Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+12 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT4 5 0 R
+/TT6 6 0 R
+/TT9 13 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+>>
+endobj
+15 0 obj
+<<
+/Length 1442
+>>
+stream
+BT
+/TT2 1 Tf
+10 0 0 10 282.17 744 Tm
+0 g
+/GS1 gs
+0 Tc
+0 Tw
+(-3-)Tj
+0 0 0 rg
+-21.017 -3.6 TD
+(EXAMPLE 2)Tj
+ET
+0 0 0 RG
+1 J 1 j 0.4 w 10 M []0 d
+1 i 
+72.03 705.51 m
+127.83 705.51 l
+S
+BT
+/TT6 1 Tf
+10 0 0 10 72 684 Tm
+[(#)-250(p)0(r)18(eserve pr)18(evious state of S r)18(egisters using the stack \(2 r)18(egisters\))]TJ
+/TT9 1 Tf
+0 -1.56 TD
+(FUNC:)Tj
+2.5 -1.56 TD
+(ADDI $sp, $sp, -8)Tj
+/TT6 1 Tf
+12.9517 0 TD
+[(#allocate for 2 r)18(egisters)]TJ
+/TT9 1 Tf
+-12.9517 -1.56 TD
+1.2 Tw
+[(SW $s0,)-600(4\($sp\))]TJ
+/TT6 1 Tf
+12.8513 0 TD
+0 Tw
+(#save $s0, 4 bytes up cause the top of new stack portion is 8 bytes up)Tj
+/TT9 1 Tf
+-12.8513 -1.56 TD
+1.2 Tw
+[(SW $s1,)-600(0\($sp\))]TJ
+/TT6 1 Tf
+12.8513 0 TD
+0 Tw
+(#goes on bottom of new stack portion)Tj
+/TT9 1 Tf
+-12.8513 -1.56 TD
+(...)Tj
+T*
+(ADDI $s0, $zero, 1)Tj
+/TT6 1 Tf
+12.8018 0 TD
+(#mess up $s0)Tj
+/TT9 1 Tf
+-12.8018 -1.56 TD
+(...)Tj
+T*
+0.7 Tw
+[(LW $s0,)-600(4\($sp\))]TJ
+/TT6 1 Tf
+12.6013 0 TD
+0 Tw
+[(#r)18(estor)18(e)-250($s0 state)]TJ
+/TT9 1 Tf
+-12.6013 -1.56 TD
+0.7 Tw
+[(LW $s1,)-600(0\($sp\))]TJ
+/TT6 1 Tf
+12.6013 0 TD
+0 Tw
+[(#r)18(estor)18(e)-250($s1 state)]TJ
+/TT9 1 Tf
+-12.6013 -1.56 TD
+(ADDI $sp, $sp, 8)Tj
+/TT6 1 Tf
+12.6016 0 TD
+[(#r)18(estor)18(e)-250(stack pointer to how it was befor)18(e)-250(\(deallocate\))]TJ
+/TT9 1 Tf
+-12.6016 -1.56 TD
+0.7 Tw
+(JR $ra)Tj
+/TT6 1 Tf
+12.5506 0 TD
+0 Tw
+[(#r)18(eturn contr)18(ol to caller)]TJ
+/TT2 1 Tf
+0 g
+3.3749 -48.84 TD
+[(17 Mar)18(ch 2020)]TJ
+ET
+endstream
+endobj
+16 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/TT2 4 0 R
+/TT6 6 0 R
+/TT9 13 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+>>
+endobj
+8 0 obj
+<<
+/Type /ExtGState
+/SA false
+/SM 0.02
+/OP false
+/op false
+/OPM 1
+/BG2 /Default
+/UCR2 /Default
+/HT /Default
+/TR2 /Default
+>>
+endobj
+17 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+18 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 681
+/Descent -277
+/Flags 262178
+/FontBBox [-152 -266 1000 924]
+/FontName /Palatino-Bold
+/ItalicAngle 0
+/StemV 133
+/XHeight 471
+/StemH 122
+>>
+endobj
+19 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 98
+/FontBBox [-170 -276 1010 918]
+/FontName /Palatino-Italic
+/ItalicAngle -15
+/StemV 84
+/XHeight 482
+/StemH 84
+>>
+endobj
+20 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 822
+/CapHeight 692
+/Descent -277
+/Flags 34
+/FontBBox [-166 -283 1021 927]
+/FontName /Palatino-Roman
+/ItalicAngle 0
+/StemV 84
+/XHeight 469
+/StemH 84
+>>
+endobj
+21 0 obj
+<<
+/Type /FontDescriptor
+/Ascent 753
+/CapHeight 562
+/Descent -246
+/Flags 35
+/FontBBox [-28 -250 628 805]
+/FontName /Courier
+/ItalicAngle 0
+/StemV 51
+/XHeight 426
+/StemH 51
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 149
+/Widths [250 0 0 0 500 0 0 0 333 333 0 0 250 333 250 606 
+500 500 500 500 500 0 500 500 0 0 250 250 0 0 0 444 
+0 778 0 709 774 611 0 763 832 337 0 726 611 946 0 786 
+604 0 668 525 613 0 0 1000 667 0 0 0 0 0 0 0 
+0 500 553 444 611 479 333 556 582 291 0 556 291 883 582 546 
+601 560 395 424 326 603 565 834 516 556 500 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 0 0 606 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 17 0 R
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 121
+/Widths [250 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 778 0 0 0 0 0 0 0 0 0 0 611 1000 0 0 
+611 0 722 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 500 0 444 0 500 0 556 611 333 0 611 0 889 611 556 
+0 0 389 444 333 611 0 0 0 556 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Bold
+/FontDescriptor 18 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 146
+/Widths [250 0 0 606 500 0 0 0 333 333 0 0 250 333 0 296 
+500 500 500 0 500 0 0 0 500 0 250 0 0 0 0 0 
+0 722 0 0 0 0 0 0 0 0 0 0 0 944 778 0 
+0 0 667 556 0 0 0 0 722 0 0 0 0 0 0 0 
+0 444 463 407 500 389 278 500 500 278 0 444 278 778 556 444 
+500 0 389 389 333 556 500 722 0 500 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 278 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Palatino-Italic
+/FontDescriptor 19 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 223
+/LastChar 223
+/Widths [608 ]
+/Encoding /MacRomanEncoding
+/BaseFont /Palatino-Roman
+/FontDescriptor 20 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/FirstChar 32
+/LastChar 122
+/Widths [600 0 0 0 600 0 0 0 600 600 0 0 600 600 600 0 
+600 600 0 0 600 0 0 0 600 0 600 0 0 0 0 0 
+0 600 0 600 600 0 600 0 0 600 600 0 600 0 600 0 
+0 0 600 600 0 600 0 600 0 0 0 0 0 0 0 0 
+0 600 0 0 0 600 0 0 0 0 0 0 0 0 0 600 
+600 0 600 600 0 0 0 0 0 0 600 ]
+/Encoding /WinAnsiEncoding
+/BaseFont /Courier
+/FontDescriptor 21 0 R
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 12 0 R
+/Contents 11 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 9 0 R
+/Resources 16 0 R
+/Contents 15 0 R
+>>
+endobj
+22 0 obj
+<<
+/S /D
+>>
+endobj
+23 0 obj
+<<
+/Nums [0 22 0 R ]
+>>
+endobj
+9 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 10 0 R 14 0 R]
+/Count 3
+/MediaBox [0 0 612 792]
+>>
+endobj
+24 0 obj
+<<
+/CreationDate (D:20200317025604-04'00')
+/ModDate (D:20200317025604-04'00')
+/Producer (Apple pstopdffilter)
+>>
+endobj
+25 0 obj
+<<
+/Type /Catalog
+/Pages 9 0 R
+/PageLabels 23 0 R
+>>
+endobj
+xref
+0 26
+0000000000 65535 f 
+0000011390 00000 n 
+0000000016 00000 n 
+0000003198 00000 n 
+0000009385 00000 n 
+0000009920 00000 n 
+0000010316 00000 n 
+0000010807 00000 n 
+0000008246 00000 n 
+0000011704 00000 n 
+0000011470 00000 n 
+0000003326 00000 n 
+0000006502 00000 n 
+0000010980 00000 n 
+0000011553 00000 n 
+0000006632 00000 n 
+0000008127 00000 n 
+0000008386 00000 n 
+0000008586 00000 n 
+0000008791 00000 n 
+0000008994 00000 n 
+0000009194 00000 n 
+0000011636 00000 n 
+0000011664 00000 n 
+0000011799 00000 n 
+0000011928 00000 n 
+trailer
+<<
+/Size 26
+/Root 25 0 R
+/Info 24 0 R
+/ID [<ce7661670ef691cbdd64da5bad404b09><ce7661670ef691cbdd64da5bad404b09>]
+>>
+startxref
+11997
+%%EOF
