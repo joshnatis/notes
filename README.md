@@ -15,6 +15,8 @@
          * [Lecture 8](https://github.com/joshnatis/notes/blob/master/260/lecture8_260.pdf)
          * [Lecture 9](https://github.com/joshnatis/notes/blob/master/260/lecture9_260.pdf)
          * [Lecture 10](https://github.com/joshnatis/notes/blob/master/260/lecture10_260.pdf)
+         * [Lecture 11](https://github.com/joshnatis/notes/blob/master/260/lecture11_260.pdf)
+
 
 
 2. __CS265 - Computer Theory I__
