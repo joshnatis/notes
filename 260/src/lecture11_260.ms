@@ -44,7 +44,7 @@ The stack grows downwards -- the larger it is, the closer it gets to the heap
 The heap grows upwards, towards the stack
 
 .bullet
-Theoretically, if the stack gets large enough, there may be a stack underflow (the stack and heap collide). This may happen if you allocate too much space in a static array, or have recursion that's too deep.
+Theoretically, if the stack gets large enough, there may be a stack overflow (the stack and heap collide). This may happen if you allocate too much space in a static array, or have recursion that's too deep.
 .RS
 .bullet
 In practice, this won't happen, because the MAX for a stack is very large.
